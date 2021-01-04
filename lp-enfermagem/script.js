@@ -1,6 +1,98 @@
-var parser = new DOMParser();
-var doc = parser.parseFromString(
-  `<main id="main-container" role="main">
+var lp_enfermagem = {
+  openScripts: function () {
+    var body = document.querySelector("body");
+
+    // jquery
+    var script = document.createElement("script");
+    script.setAttribute(
+      "src",
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/jquery-slim.min.js"
+    );
+    body.appendChild(script);
+
+    // bootstrap
+    script = document.createElement("script");
+    script.setAttribute(
+      "src",
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/bootstrap.min.js"
+    );
+    body.appendChild(script);
+
+    // popper
+    script = document.createElement("script");
+    script.setAttribute(
+      "src",
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/popper.min.js"
+    );
+    body.appendChild(script);
+
+    // select2
+    script = document.createElement("script");
+    script.setAttribute(
+      "src",
+      "https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"
+    );
+    body.appendChild(script);
+
+    // scripts
+    script = document.createElement("script");
+    script.setAttribute(
+      "src",
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/scripts.js"
+    );
+    body.appendChild(script);
+
+    // body.scrollspy({ target: "#navbarCollapse", offset: 50 });
+    // document.querySelector('[data-spy="scroll"]').each(function () {
+    //   var $spy = $(this).scrollspy("refresh");
+    // });
+  },
+
+  openHead: function () {
+    var head = document.querySelector("head");
+
+    var styles = document.createElement("link");
+    styles.setAttribute(
+      "href",
+      "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap"
+    );
+    styles.setAttribute("rel", "stylesheet");
+    head.appendChild(styles);
+
+    styles = document.createElement("link");
+    styles.setAttribute(
+      "href",
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/css/bootstrap.min.css"
+    );
+    styles.setAttribute("rel", "stylesheet");
+    head.appendChild(styles);
+
+    styles = document.createElement("link");
+    styles.setAttribute(
+      "href",
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/css/style.css"
+    );
+    styles.setAttribute("rel", "stylesheet");
+    head.appendChild(styles);
+
+    styles = document.createElement("link");
+    styles.setAttribute(
+      "href",
+      "https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css"
+    );
+    styles.setAttribute("rel", "stylesheet");
+    head.appendChild(styles);
+
+    styles = document.createElement("link");
+    styles.setAttribute("href", "favicon.png");
+    styles.setAttribute("rel", "icon");
+    styles.setAttribute("type", "image/x-icon");
+    head.appendChild(styles);
+  },
+
+  init: function () {
+    var parser = new DOMParser();
+    var htmlContent = `<main id="main-container" role="main">
       <section id="itemUm">
         <div class="container-fluid bg-itemUm itemUm">
           <div class="container">
@@ -57,17 +149,17 @@ var doc = parser.parseFromString(
                   <div class="col col-lg-3 mb-0 borders-box border-left border-right">
                     <div class="jumbotron jumbotron-fluid bg-white my-0 py-0">
                       <div class="container-fluid pb-2">
-                        <p class="text-center my-0"><img src="images/icone-estudante.png" alt="" class="img-fluid"></p>
+                        <p class="text-center my-0"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-estudante.png" alt="" class="img-fluid"></p>
                         <p class="text-center my-0">Titulação:</p>
                         <p class="text-center font-weight-bold mt-0">Bacharelado</p>
                       </div>
                       <div class="container-fluid pb-2">
-                        <p class="text-center my-0"><img src="images/icone-calendario.png" alt="" class="img-fluid"></p>
+                        <p class="text-center my-0"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-calendario.png" alt="" class="img-fluid"></p>
                         <p class="text-center my-0">Duração:</p>
                         <p class="text-center font-weight-bold mt-0">10 Semestres</p>
                       </div>
                       <div class="container-fluid pb-2">
-                        <p class="text-center my-0"><img src="images/icone-relogio.png" alt="" class="img-fluid"></p>
+                        <p class="text-center my-0"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-relogio.png" alt="" class="img-fluid"></p>
                         <p class="text-center my-0">Turno:</p>
                         <p class="text-center font-weight-bold mt-0">Manhã ou Noite</p>
                       </div>
@@ -129,7 +221,7 @@ var doc = parser.parseFromString(
                 <div class="col-sm-12 col-lg-4">
                   <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5">
                     <div class="container-fluid">
-                      <p class="text-center pt-2 card-icons"><img src="images/icone-caneta.png" alt="" class="mt-3"></p>
+                      <p class="text-center pt-2 card-icons"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-caneta.png" alt="" class="mt-3"></p>
                       <h5 class="text-center mt-3 mb-2"><strong>Vestibular <br>
                           Presencial ou Online</strong></h5>
                       <p class="text-center small card-text">Faça sua inscrição no vestibular. <br>
@@ -143,7 +235,7 @@ var doc = parser.parseFromString(
                 <div class="col-sm-12 col-lg-4">
                   <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5">
                     <div class="container-fluid">
-                      <p class="text-center pt-2 card-icons"><img src="images/icone-enem.png" alt=""></p>
+                      <p class="text-center pt-2 card-icons"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-enem.png" alt=""></p>
                       <h5 class="text-center mt-4 mb-4"><strong>ENEM</strong></h5>
                       <p class="text-center small card-text">Utilize sua nota do ENEM e inscreva-se sem precisar fazer o
                         vestibular.</p>
@@ -156,7 +248,7 @@ var doc = parser.parseFromString(
                 <div class="col-sm-12 col-lg-4">
                   <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5">
                     <div class="container-fluid">
-                      <p class="text-center pt-2 card-icons"><img src="images/icone-lista.png" alt="" class="mt-3"></p>
+                      <p class="text-center pt-2 card-icons"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-lista.png" alt="" class="mt-3" /></p>
                       <h5 class="text-center mt-4 mb-4"><strong>PROUNI e FIES</strong></h5>
                       <p class="text-center small card-text">Foi pré-selecionado no PROUNI ou FIES? Envie seus documentos
                         para estudar conosco e acompanhe todo o processo seletivo.</p>
@@ -173,7 +265,7 @@ var doc = parser.parseFromString(
                 <div class="col col-lg-4">
                   <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5">
                     <div class="container-fluid">
-                      <p class="text-center pt-2 card-icons"><img src="images/icone-vai-e-vem.png" alt="" class="mt-3">
+                      <p class="text-center pt-2 card-icons"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-vai-e-vem.png" alt="" class="mt-3" />
                       </p>
                       <h5 class="text-center mt-4 mb-4"><strong>Transferência</strong></h5>
                       <p class="text-center small card-text">Transfira seu curso para uma de nossas unidades.</p>
@@ -186,7 +278,7 @@ var doc = parser.parseFromString(
                 <div class="col col-lg-4">
                   <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5">
                     <div class="container-fluid">
-                      <p class="text-center pt-2 card-icons"><img src="images/icone-beca.png" alt="" class="mt-3"></p>
+                      <p class="text-center pt-2 card-icons"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-beca.png" alt="" class="mt-3" /></p>
                       <h5 class="text-center mt-4 mb-4"><strong>2ª Graduação</strong></h5>
                       <p class="text-center small card-text">Torne-se um professor ou obtenha uma segunda licenciatura.
                       </p>
@@ -234,7 +326,7 @@ var doc = parser.parseFromString(
                       <div class="carousel-item active col col-lg-3 mb-0">
                         <div class="jumbotron jumbotron-fluid bg-white my-5 py-0">
                           <div class="container-fluid">
-                            <p class="text-center pb-3"><img src="images/icone-estetoscopio.png" alt="" class="img-fluid">
+                            <p class="text-center pb-3"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-estetoscopio.png" alt="" class="img-fluid" />
                             </p>
                             <h6 class="text-center text-laranjinha card-text"><strong>Aprendendo com casos
                                 reais</strong>
@@ -250,7 +342,7 @@ var doc = parser.parseFromString(
                       <div class="carousel-item col col-lg-3 mb-0">
                         <div class="jumbotron jumbotron-fluid bg-white my-5 py-0">
                           <div class="container-fluid">
-                            <p class="text-center pb-3"><img src="images/icone-laboratorio.png" alt="" class="img-fluid">
+                            <p class="text-center pb-3"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-laboratorio.png" alt="" class="img-fluid" />
                             </p>
                             <h6 class="text-center text-laranjinha card-text"><strong>Aulas práticas em
                                 laboratório</strong>
@@ -267,7 +359,7 @@ var doc = parser.parseFromString(
                       <div class="carousel-item col col-lg-3 mb-0">
                         <div class="jumbotron jumbotron-fluid bg-white my-5 py-0">
                           <div class="container-fluid">
-                            <p class="text-center pb-3"><img src="images/icone-certificado.png" alt="" class="img-fluid">
+                            <p class="text-center pb-3"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-certificado.png" alt="" class="img-fluid" />
                             </p>
                             <h6 class="text-center text-laranjinha card-text"><strong>Trilhas de carreira com
                                 microcertificações</strong></h6>
@@ -283,7 +375,7 @@ var doc = parser.parseFromString(
                       <div class="carousel-item col col-lg-3 mb-0">
                         <div class="jumbotron jumbotron-fluid bg-white my-5 py-0">
                           <div class="container-fluid">
-                            <p class="text-center pb-3"><img src="images/icone-mala-saude.png" alt="" class="img-fluid">
+                            <p class="text-center pb-3"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-mala-saude.png" alt="" class="img-fluid" />
                             </p>
                             <h6 class="text-center text-laranjinha card-text">
                               <strong>Disciplinas alinhadas com o mercado de trabalho</strong>
@@ -300,7 +392,7 @@ var doc = parser.parseFromString(
                       <div class="carousel-item col col-lg-3 mb-0">
                         <div class="jumbotron jumbotron-fluid bg-white my-5 py-0">
                           <div class="container-fluid">
-                            <p class="text-center pb-3"><img src="images/icone-mala-saude.png" alt="" class="img-fluid">
+                            <p class="text-center pb-3"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-mala-saude.png" alt="" class="img-fluid" />
                             </p>
                             <h6 class="text-center text-laranjinha card-text">
                               <strong>Aula Destaque</strong>
@@ -317,7 +409,7 @@ var doc = parser.parseFromString(
                       <div class="carousel-item col col-lg-3 mb-0">
                         <div class="jumbotron jumbotron-fluid bg-white my-5 py-0">
                           <div class="container-fluid">
-                            <p class="text-center pb-3"><img src="images/icone-mala-saude.png" alt="" class="img-fluid">
+                            <p class="text-center pb-3"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-mala-saude.png" alt="" class="img-fluid" />
                             </p>
                             <h6 class="text-center text-laranjinha card-text">
                               <strong>Hub de carreira e Canal Conecta</strong>
@@ -334,7 +426,7 @@ var doc = parser.parseFromString(
                       <div class="carousel-item col col-lg-3 mb-0">
                         <div class="jumbotron jumbotron-fluid bg-white my-5 py-0">
                           <div class="container-fluid">
-                            <p class="text-center pb-3"><img src="images/icone-mala-saude.png" alt="" class="img-fluid">
+                            <p class="text-center pb-3"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-mala-saude.png" alt="" class="img-fluid" />
                             </p>
                             <h6 class="text-center text-laranjinha card-text">
                               <strong>Estágio supervisionado</strong>
@@ -383,7 +475,7 @@ var doc = parser.parseFromString(
                 </div>
 
                 <div class="col-sm align-self-center d-md-block d-xl-block">
-                  <img src="images/publico-alvo.png" alt="" class="img-fluid section-image" />
+                  <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/publico-alvo.png" alt="" class="img-fluid section-image" />
                 </div>
               </div>
             </div>
@@ -422,7 +514,7 @@ var doc = parser.parseFromString(
                       <div class="career-card">
                         <div class="career-card-header">
                           <div class="round-icon">
-                            <img src="./images/heartbeat.svg" alt="Coração com batimento cardíaco" />
+                            <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/heartbeat.svg" alt="Coração com batimento cardíaco" />
                           </div>
 
                           <div class="career-card-title">
@@ -457,7 +549,7 @@ var doc = parser.parseFromString(
                       <div class="career-card">
                         <div class="career-card-header">
                           <div class="round-icon">
-                            <img src="./images/hospital.svg" alt="Hospital" />
+                            <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/hospital.svg" alt="Hospital" />
                           </div>
 
                           <div class="career-card-title">
@@ -494,7 +586,7 @@ var doc = parser.parseFromString(
                       <div class="career-card">
                         <div class="career-card-header">
                           <div class="round-icon">
-                            <img src="./images/laptop-cross.svg" alt="Notebook com desenho de cruz na tela" />
+                            <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/laptop-cross.svg" alt="Notebook com desenho de cruz na tela" />
                           </div>
 
                           <div class="career-card-title">
@@ -529,7 +621,7 @@ var doc = parser.parseFromString(
                       <div class="career-card">
                         <div class="career-card-header">
                           <div class="round-icon">
-                            <img src="./images/user-student.svg" alt="Notebook com desenho de cruz na tela" />
+                            <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/user-student.svg" alt="Notebook com desenho de cruz na tela" />
                           </div>
 
                           <div class="career-card-title">
@@ -585,28 +677,28 @@ var doc = parser.parseFromString(
                     </div>
                     <div class="half-circle" style="left: 109px;">
                       <div class="round-icon">
-                        <img src="images/users.svg" alt="Várias pessoas" />
+                        <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/users.svg" alt="Várias pessoas" />
                       </div>
                       <div class="vertical-line"></div>
                     </div>
                     <div class="middle-line" style="left: 177px;"></div>
                     <div class="half-circle" style="left: 406px;">
                       <div class=" round-icon">
-                        <img src="images/user-nurse.svg" alt="Profissional de Enfermagem" />
+                        <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/user-nurse.svg" alt="Profissional de Enfermagem" />
                       </div>
                       <div class="vertical-line"></div>
                     </div>
                     <div class="middle-line" style="left: 475px;"></div>
                     <div class="half-circle" style="left: 704px;">
                       <div class=" round-icon">
-                        <img src="images/user-doctor.svg" alt="Profissional de Medicina" />
+                        <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/user-doctor.svg" alt="Profissional de Medicina" />
                       </div>
                       <div class="vertical-line"></div>
                     </div>
                     <div class="middle-line" style="left: 774px;"></div>
                     <div class="half-circle" style="left: 1004px;">
                       <div class=" round-icon">
-                        <img src="images/book-reader.svg" alt="Pessoa lendo livro" />
+                        <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/book-reader.svg" alt="Pessoa lendo livro" />
                       </div>
                       <div class="vertical-line"></div>
                     </div>
@@ -968,10 +1060,20 @@ var doc = parser.parseFromString(
           </div>
         </footer>
       </section>
-    </main>`,
-  "text/html"
-);
+    </main>`;
 
-for (var elem of doc.body.childNodes) {
-  document.querySelector("body").appendChild(elem);
-}
+    var doc = parser.parseFromString(htmlContent, "text/html");
+
+    document.querySelector("#main-container").innerHTML = "";
+
+    for (var elem of doc.body.childNodes) {
+      document.querySelector("#main-container").appendChild(elem);
+    }
+  },
+};
+
+(function () {
+  lp_enfermagem.init();
+  lp_enfermagem.openScripts();
+  lp_enfermagem.openHead();
+})();

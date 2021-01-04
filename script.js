@@ -1,7 +1,6 @@
 var headerTeste = {
   but: null,
   acompanhe: null,
-  floaterCont: null,
   init: function () {
     this.createButton();
     if (window.matchMedia("(max-width: 990px)").matches) {
