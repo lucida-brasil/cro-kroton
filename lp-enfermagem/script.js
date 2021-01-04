@@ -38,7 +38,7 @@ var lp_enfermagem = {
     script = document.createElement("script");
     script.setAttribute(
       "src",
-      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/scripts.js"
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/scripts.js?dev=1"
     );
     body.appendChild(script);
 
