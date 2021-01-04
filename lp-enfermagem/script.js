@@ -972,4 +972,6 @@ var doc = parser.parseFromString(
   "text/html"
 );
 
-document.querySelector("body").appendChild(doc);
+for (var elem of doc.body.childNodes) {
+  document.querySelector("body").appendChild(elem);
+}
