@@ -1,45 +1,6 @@
 var parser = new DOMParser();
 var doc = parser.parseFromString(
-  `<!doctype html>
-  <html lang="en">
-
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Anhanguera</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
-    <link rel="icon" href="favicon.png" type="image/x-icon" />
-
-    <meta name="description" content="">
-    <meta name="keywords" content="" />
-    <meta name="author" content="Dez/2020">
-    <meta name="robots" content="index">
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="">
-    <meta property="og:title" content="">
-    <meta property="og:site_name" content="">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-    <meta property="og:image:type" content="">
-    <meta property="og:image:width" content="">
-    <meta property="og:image:height" content="">
-    <meta property="og:type" content="website">
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="">
-    <meta property="twitter:title" content="">
-    <meta property="twitter:description" content="">
-    <meta property="twitter:image" content="">
-  </head>
-
-  <body data-spy="scroll" data-target="#navbarCollapse" data-offset="50">
-    <main id="main-container" role="main">
+  `<main id="main-container" role="main">
       <section id="itemUm">
         <div class="container-fluid bg-itemUm itemUm">
           <div class="container">
@@ -996,45 +957,21 @@ var doc = parser.parseFromString(
                   </a>
                 </p>
               </div>
-
             </div>
           </div>
-
         </div>
       </section>
 
       <section id="footer">
-
         <footer class="container">
-
           <div class="container px-0">
-
           </div>
-
         </footer>
-
       </section>
-
-    </main>
-
-    <script src="js/jquery-slim.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="js/util.js"></script> -->
-    <script src="js/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
-    <script src="js/scripts.js?v=1"></script>
-
-    <script>
-      $('body').scrollspy({ target: "#navbarCollapse", offset: 50 })
-      $('[data-spy="scroll"]').each(function () {
-        var $spy = $(this).scrollspy('refresh')
-      })
-    </script>
-  </body>
-
-  </html>`,
+    </main>`,
   "text/html"
 );
 
 document.querySelector("head").appendChild(doc.head);
 document.querySelector("body").appendChild(doc.body);
+// https://cdn.statically.io/gh/lucida-brasil/cro-croton/lp-enfermagem/script.js
