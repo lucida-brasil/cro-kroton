@@ -972,6 +972,4 @@ var doc = parser.parseFromString(
   "text/html"
 );
 
-document.querySelector("head").appendChild(doc.head);
-document.querySelector("body").appendChild(doc.body);
-// https://cdn.statically.io/gh/lucida-brasil/cro-croton/lp-enfermagem/script.js
+document.querySelector("body").appendChild(doc);
