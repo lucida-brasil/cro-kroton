@@ -400,7 +400,7 @@ body.body-curso div #main-container.lp-enfermagem .bg-laranja2 {
 }
 
 /* The Modal (background) */
-.lp-enfermagem .modal {
+.body-curso main.lp-enfermagem .modal {
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   bottom: 0;
@@ -416,7 +416,7 @@ body.body-curso div #main-container.lp-enfermagem .bg-laranja2 {
 }
 
 /* Modal Content/Box */
-.lp-enfermagem .modal-content {
+.body-curso main.lp-enfermagem .modal-content {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -427,13 +427,13 @@ body.body-curso div #main-container.lp-enfermagem .bg-laranja2 {
   padding: 36px;
 }
 
-.lp-enfermagem .modal-content .header {
+.body-curso main.lp-enfermagem .modal-content .header {
   align-items: center;
   display: flex;
   justify-content: space-between;
 }
 
-.lp-enfermagem .modal-content .testimony-author {
+.body-curso main.lp-enfermagem .modal-content .testimony-author {
   color: #402b2b;
   font-size: 18px;
   font-weight: 700;
@@ -443,7 +443,7 @@ body.body-curso div #main-container.lp-enfermagem .bg-laranja2 {
   text-align: center;
 }
 
-.lp-enfermagem .modal-content .testimony-course {
+.body-curso main.lp-enfermagem .modal-content .testimony-course {
   color: #402b2b;
   font-size: 14px;
   font-weight: 300;
@@ -452,7 +452,7 @@ body.body-curso div #main-container.lp-enfermagem .bg-laranja2 {
   text-align: left;
 }
 
-.lp-enfermagem .modal-content .testimony-paragraph {
+.body-curso main.lp-enfermagem .modal-content .testimony-paragraph {
   color: #402b2b;
   display: block;
   font-family: "Open Sans";
@@ -464,15 +464,15 @@ body.body-curso div #main-container.lp-enfermagem .bg-laranja2 {
 }
 
 /* The Close Button */
-.lp-enfermagem .close {
+.body-curso main.lp-enfermagem .close {
   color: #aaa;
   font-size: 28px;
   line-height: 0;
   font-weight: bold;
 }
 
-.lp-enfermagem .close:hover,
-.lp-enfermagem .close:focus {
+.body-curso main.lp-enfermagem .close:hover,
+.body-curso main.lp-enfermagem .close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
