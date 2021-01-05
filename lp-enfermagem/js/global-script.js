@@ -87,7 +87,7 @@ var lp_enfermagem = {
 
   init: function () {
     var parser = new DOMParser();
-    var htmlContent = `<main id="main-container" role="main">
+    var htmlContent = `<main id="main-container" class="lp-enfermagem" role="main">
       <section id="itemUm">
         <div class="container-fluid bg-itemUm itemUm">
           <div class="container">
@@ -1040,7 +1040,7 @@ var lp_enfermagem = {
     var doc = parser.parseFromString(htmlContent, "text/html");
 
     document.querySelector("#main-container").innerHTML = "";
-    document.querySelector("body").classList.add("lp-enfermagem");
+    // document.querySelector("body").classList.add("lp-enfermagem");
 
     for (var elem of doc.body.childNodes) {
       document.querySelector("#main-container").appendChild(elem);
