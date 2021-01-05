@@ -188,38 +188,38 @@ section#itemSeteMobile div#headingOne,
 section#itemSeteMobile div#headingTwo,
 section#itemSeteMobile div#headingThree {
   margin: 0px 0px 8px 52px;
-  padding-bottoms: 2px;
+  padding-bottom: 2px;
   background-color: #ffffff;
   border: 1px solid #bdbdbd;
 }
 
 section#itemSeteMobile div#headingFour {
   margin: 0px 0px 1px 52px;
-  padding-bottoms: 2px;
+  padding-bottom: 2px;
   background-color: #ffffff;
   border: 1px solid #bdbdbd;
 }
 
 section#itemSeteMobile div.headingOne {
-  displays: inline-block;
+  display: inline-block;
   z-index: 0 !important;
   background: url("../images/icone-nivel-medio.png") 0% 0% no-repeat;
 }
 
 section#itemSeteMobile div.headingTwo {
-  displays: inline-block;
+  display: inline-block;
   z-index: 0 !important;
   background: url("../images/icone-tecnico.png") 0% 0% no-repeat;
 }
 
 section#itemSeteMobile div.headingThree {
-  displays: inline-block;
+  display: inline-block;
   z-index: 0 !important;
   background: url("../images/icone-bacharelado.png") 0% 0% no-repeat;
 }
 
 section#itemSeteMobile div.headingFour {
-  displays: inline-block;
+  display: inline-block;
   z-index: 0 !important;
   background: url("../images/icone-pos.png") 0% 0% no-repeat;
 }
@@ -334,10 +334,10 @@ section#itemSeteMobile .coren-paragraph-mobile {
   text-align: center;
 }
 
-.testimonials-container {
-  /* display: flex;
-  width: 100%; */
-}
+/* .testimonials-container {
+  display: flex;
+  width: 100%;
+} */
 
 .testimony-paragraph {
   color: #402b2b;
@@ -1645,10 +1645,10 @@ ol.carousel-indicators li:nth-child(2) {
     margin-top: 0px !important;
     font-size: 22px !important;
   }
-  #itemCinco .section-paragraph {
-    /* margin: 0 10% !important; */
-    /* font-size: 11px !important; */
-  }
+  /* #itemCinco .section-paragraph { */
+  /* margin: 0 10% !important; */
+  /* font-size: 11px !important; */
+  /* } */
   #itemCinco .container {
     padding: 0;
   }
