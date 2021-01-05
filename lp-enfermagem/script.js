@@ -41,11 +41,6 @@ var lp_enfermagem = {
       "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/scripts.js?dev=1"
     );
     body.appendChild(script);
-
-    // body.scrollspy({ target: "#navbarCollapse", offset: 50 });
-    // document.querySelector('[data-spy="scroll"]').each(function () {
-    //   var $spy = $(this).scrollspy("refresh");
-    // });
   },
 
   openHead: function () {

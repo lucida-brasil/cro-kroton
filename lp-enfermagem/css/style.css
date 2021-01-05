@@ -190,43 +190,43 @@ section#itemSeteMobile div#headingThree {
   margin: 0px 0px 8px 52px;
   padding-bottoms: 2px;
   background-color: #ffffff;
-  border: 1px solid #BDBDBD;
+  border: 1px solid #bdbdbd;
 }
 
 section#itemSeteMobile div#headingFour {
   margin: 0px 0px 1px 52px;
   padding-bottoms: 2px;
   background-color: #ffffff;
-  border: 1px solid #BDBDBD;
+  border: 1px solid #bdbdbd;
 }
 
 section#itemSeteMobile div.headingOne {
   displays: inline-block;
-  z-index: 0!important;
+  z-index: 0 !important;
   background: url("../images/icone-nivel-medio.png") 0% 0% no-repeat;
 }
 
 section#itemSeteMobile div.headingTwo {
   displays: inline-block;
-  z-index: 0!important;
+  z-index: 0 !important;
   background: url("../images/icone-tecnico.png") 0% 0% no-repeat;
 }
 
 section#itemSeteMobile div.headingThree {
   displays: inline-block;
-  z-index: 0!important;
+  z-index: 0 !important;
   background: url("../images/icone-bacharelado.png") 0% 0% no-repeat;
 }
 
 section#itemSeteMobile div.headingFour {
   displays: inline-block;
-  z-index: 0!important;
+  z-index: 0 !important;
   background: url("../images/icone-pos.png") 0% 0% no-repeat;
 }
 
 section#itemSeteMobile p.card-body {
-  margin: 7px 0px 16px 72px!important;
-  padding: 0px 0px 0px 0px!important;
+  margin: 7px 0px 16px 72px !important;
+  padding: 0px 0px 0px 0px !important;
   line-height: 18px;
 }
 
@@ -236,7 +236,7 @@ section#itemSeteMobile h6.text-laranja {
 
 section#itemSeteMobile .coren-container-mobile {
   background: #f2f2f2;
-  width:93%;
+  width: 93%;
 }
 
 section#itemSeteMobile .coren-paragraph-mobile {
@@ -246,11 +246,17 @@ section#itemSeteMobile .coren-paragraph-mobile {
   text-align: center;
 }
 @media (min-width: 1165px) {
-  section#itemSeteMobile {display:none;}  
+  section#itemSeteMobile {
+    display: none;
+  }
 }
 @media (max-width: 1164px) {
-  section#itemSete {display:none;}
-  section#itemSeteMobile {display:block;}  
+  section#itemSete {
+    display: none;
+  }
+  section#itemSeteMobile {
+    display: block;
+  }
 }
 
 /* Featurettes ------------------------- */
@@ -1828,9 +1834,9 @@ ul.second-menu__ul-dropdown {
 }
 
 @media (min-width: 993px) {
-  #main-container {
+  /* #main-container {
     margin-top: 118px;
-  }
+  } */
 
   li.second-menu__ul-li > a {
     padding: 30px 10px;
@@ -1894,9 +1900,9 @@ ul.second-menu__ul-dropdown {
 }
 
 @media (min-width: 1205px) {
-  #main-container {
+  /* #main-container {
     margin-top: 137px;
-  }
+  } */
 
   body .first-level-menu-container > .main-grid {
     border-bottom: 1px solid #bdbdbd;
