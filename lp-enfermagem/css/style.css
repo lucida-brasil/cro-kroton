@@ -58,13 +58,13 @@ body {
   padding-top: 1px;
 }
 
-.body-unidade #main-container section:nth-child(odd),
-.body-curso #main-container section:nth-child(odd) {
+body.body-curso #main-container section {
   margin: 0;
 }
 
-.lp-enfermagem .bg-itemUm {
-  background: url("../images/bg-principal.jpg") right top no-repeat;
+.body-curso main.lp-enfermagem .bg-itemUm {
+  background: url("https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/bg-principal.jpg")
+    right top no-repeat;
 }
 
 .lp-enfermagem .long-arrow-alt-right {
@@ -72,14 +72,16 @@ body {
   width: 26px;
   height: 10px;
   padding: 0px 15px !important;
-  background: url("../images/long-arrow-alt-right.png") center center no-repeat;
+  background: url("https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/long-arrow-alt-right.png")
+    center center no-repeat;
 }
 
-.lp-enfermagem section#itemDois {
+.body-curso main.lp-enfermagem section#itemDois {
   margin-top: -5px !important;
   padding-top: 0 !important;
   height: 560px;
-  background: url("../images/bg-border-right.png") right top no-repeat;
+  background: url("https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/bg-border-right.png")
+    right top no-repeat;
   border: 1px solid #ffffff;
 }
 
@@ -93,7 +95,8 @@ body {
   height: 551px;
   position: relative;
   top: -551px;
-  background: url("../images/bg-border-left.png") left no-repeat;
+  background: url("https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/bg-border-left.png")
+    left no-repeat;
 }
 
 .lp-enfermagem .myTextCenter {
@@ -101,7 +104,7 @@ body {
 }
 
 @media (max-width: 1119px) {
-  .lp-enfermagem section#itemDois {
+  .body-curso main.lp-enfermagem section#itemDois {
     background: none;
   }
   .lp-enfermagem .bg-itemDois {
@@ -112,158 +115,151 @@ body {
   }
 }
 
-.lp-enfermagem section#itemTres {
+.body-curso main.lp-enfermagem section#itemTres {
   padding-top: 0px;
 }
 
-.lp-enfermagem section#footer {
-  background: #4f4f4f;
-  padding-top: 0px;
-  height: 263px;
-}
-
-.lp-enfermagem .footer {
-  padding-top: 30px;
-  padding-bottom: 10px;
-  border: 0px solid red;
-}
-
-.lp-enfermagem .hide {
+.body-curso main.lp-enfermagem .hide {
   display: none;
 }
 
-.lp-enfermagem .hideDesk {
+.body-curso main.lp-enfermagem .hideDesk {
   display: none;
 }
 
-.lp-enfermagem .text-laranja {
+.body-curso main.lp-enfermagem .text-laranja {
   color: #f47921;
 }
 
-.lp-enfermagem .text-laranja2 {
+.body-curso main.lp-enfermagem .text-laranja2 {
   color: #f05021;
 }
 
-.lp-enfermagem .text-cinza-carbono {
+.body-curso main.lp-enfermagem .text-cinza-carbono {
   color: #57585a;
 }
 
-.lp-enfermagem .bg-laranja {
+body.body-curso div #main-container.lp-enfermagem .bg-laranja {
   background-color: #f7931d;
 }
 
-.lp-enfermagem .bg-laranja2 {
+body.body-curso div #main-container.lp-enfermagem .bg-laranja2 {
   background-color: #f47921;
 }
 
-.lp-enfermagem .text-laranjinha {
+.body-curso main.lp-enfermagem .text-laranjinha {
   color: #f47921;
 }
 
-.lp-enfermagem .btn-laranja {
+.body-curso main.lp-enfermagem .btn-laranja {
   background-color: #f05021;
 }
 
-.lp-enfermagem .btn-outline-laranja {
+.body-curso main.lp-enfermagem .btn-outline-laranja {
   border-color: #f05021;
 }
 
-.lp-enfermagem .btn-outline-laranja:hover {
+.body-curso main.lp-enfermagem .btn-outline-laranja:hover {
   background-color: #d24a21;
   border-color: #f05021;
   color: #ffffff !important;
 }
 
-.lp-enfermagem .btn-laranja:hover {
+.body-curso main.lp-enfermagem .btn-laranja:hover {
   background-color: #d24a21;
 }
 
-.lp-enfermagem .anchorPoint {
+.body-curso main.lp-enfermagem .anchorPoint {
   height: 5px;
 }
 
-.lp-enfermagem .card-icons {
+.body-curso main.lp-enfermagem .card-icons {
   text-align: center !important;
   width: 100% !important;
   height: 52px !important;
 }
 
-.lp-enfermagem .card-text {
+.body-curso main.lp-enfermagem .card-text {
   min-height: 60px !important;
   margin-bottom: 20px;
 }
 
-.lp-enfermagem section#itemSeteMobile div#headingOne,
-.lp-enfermagem section#itemSeteMobile div#headingTwo,
-.lp-enfermagem section#itemSeteMobile div#headingThree {
+.body-curso main.lp-enfermagem section#itemSeteMobile div#headingOne,
+.body-curso main.lp-enfermagem section#itemSeteMobile div#headingTwo,
+.body-curso main.lp-enfermagem section#itemSeteMobile div#headingThree {
   margin: 0px 0px 8px 52px;
   padding-bottom: 2px;
   background-color: #ffffff;
   border: 1px solid #bdbdbd;
 }
 
-.lp-enfermagem section#itemSeteMobile div#headingFour {
+.body-curso main.lp-enfermagem section#itemSeteMobile div#headingFour {
   margin: 0px 0px 1px 52px;
   padding-bottom: 2px;
   background-color: #ffffff;
   border: 1px solid #bdbdbd;
 }
 
-.lp-enfermagem section#itemSeteMobile div.headingOne {
+.body-curso main.lp-enfermagem section#itemSeteMobile div.headingOne {
   display: inline-block;
   z-index: 0 !important;
-  background: url("../images/icone-nivel-medio.png") 0% 0% no-repeat;
+  background: url("https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-nivel-medio.png")
+    0% 0% no-repeat;
 }
 
-.lp-enfermagem section#itemSeteMobile div.headingTwo {
+.body-curso main.lp-enfermagem section#itemSeteMobile div.headingTwo {
   display: inline-block;
   z-index: 0 !important;
-  background: url("../images/icone-tecnico.png") 0% 0% no-repeat;
+  background: url("https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-tecnico.png")
+    0% 0% no-repeat;
 }
 
-.lp-enfermagem section#itemSeteMobile div.headingThree {
+.body-curso main.lp-enfermagem section#itemSeteMobile div.headingThree {
   display: inline-block;
   z-index: 0 !important;
-  background: url("../images/icone-bacharelado.png") 0% 0% no-repeat;
+  background: url("https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-bacharelado.png")
+    0% 0% no-repeat;
 }
 
-.lp-enfermagem section#itemSeteMobile div.headingFour {
+.body-curso main.lp-enfermagem section#itemSeteMobile div.headingFour {
   display: inline-block;
   z-index: 0 !important;
-  background: url("../images/icone-pos.png") 0% 0% no-repeat;
+  background: url("https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-pos.png")
+    0% 0% no-repeat;
 }
 
-.lp-enfermagem section#itemSeteMobile p.card-body {
+.body-curso main.lp-enfermagem section#itemSeteMobile p.card-body {
   margin: 7px 0px 16px 72px !important;
   padding: 0px 0px 0px 0px !important;
   line-height: 18px;
 }
 
-.lp-enfermagem section#itemSeteMobile h6.text-laranja {
-  background: url("../images/arrow-down.png") 98% center no-repeat;
+.body-curso main.lp-enfermagem section#itemSeteMobile h6.text-laranja {
+  background: url("https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/arrow-down.png")
+    98% center no-repeat;
 }
 
-.lp-enfermagem section#itemSeteMobile .coren-container-mobile {
+.body-curso main.lp-enfermagem section#itemSeteMobile .coren-container-mobile {
   background: #f2f2f2;
   width: 93%;
 }
 
-.lp-enfermagem section#itemSeteMobile .coren-paragraph-mobile {
+.body-curso main.lp-enfermagem section#itemSeteMobile .coren-paragraph-mobile {
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
   text-align: center;
 }
 @media (min-width: 1165px) {
-  .lp-enfermagem section#itemSeteMobile {
+  .body-curso main.lp-enfermagem section#itemSeteMobile {
     display: none;
   }
 }
 @media (max-width: 1164px) {
-  .lp-enfermagem section#itemSete {
+  .body-curso main.lp-enfermagem section#itemSete {
     display: none;
   }
-  .lp-enfermagem section#itemSeteMobile {
+  .body-curso main.lp-enfermagem section#itemSeteMobile {
     display: block;
   }
 }
@@ -297,18 +293,18 @@ body {
 
 /* ------------ */
 
-.lp-enfermagem .section-title {
+.body-curso main.lp-enfermagem .section-title {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2em;
   margin: 36px 0;
 }
 
-.lp-enfermagem .section-title span {
+.body-curso main.lp-enfermagem .section-title span {
   color: #57585a;
 }
 
-.lp-enfermagem .section-title-container {
+.body-curso main.lp-enfermagem .section-title-container {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -316,27 +312,27 @@ body {
   margin-top: 0;
 }
 
-.lp-enfermagem .section-title.career {
+.body-curso main.lp-enfermagem .section-title.career {
   align-self: center;
 }
 
-.lp-enfermagem .section-title.career span {
+.body-curso main.lp-enfermagem .section-title.career span {
   color: #f47921;
 }
 
-.lp-enfermagem .section-paragraph {
+.body-curso main.lp-enfermagem .section-paragraph {
   font-family: "Open Sans";
   font-size: 18px;
   line-height: 174%;
 }
 
-.lp-enfermagem .section-image {
+.body-curso main.lp-enfermagem .section-image {
   max-width: 164%;
   position: absolute;
   bottom: -460px;
 }
 
-.lp-enfermagem .section-career-paragraph {
+.body-curso main.lp-enfermagem .section-career-paragraph {
   font-size: 18px;
   font-family: "Open Sans";
   line-height: 24px;
@@ -348,7 +344,7 @@ body {
   width: 100%;
 } */
 
-.lp-enfermagem .testimony-paragraph {
+.body-curso main.lp-enfermagem .testimony-paragraph {
   color: #402b2b;
   display: -webkit-box;
   font-family: "Open Sans";
@@ -362,7 +358,7 @@ body {
   -webkit-box-orient: vertical;
 }
 
-.lp-enfermagem .testimony-container {
+.body-curso main.lp-enfermagem .testimony-container {
   background: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
@@ -372,7 +368,7 @@ body {
   padding: 16px 20px;
 }
 
-.lp-enfermagem .testimony-author {
+.body-curso main.lp-enfermagem .testimony-author {
   color: #402b2b;
   font-size: 16px;
   font-weight: 700;
@@ -382,7 +378,7 @@ body {
   text-align: center;
 }
 
-.lp-enfermagem .testimony-course {
+.body-curso main.lp-enfermagem .testimony-course {
   color: #402b2b;
   font-size: 12px;
   font-weight: 300;
@@ -391,7 +387,7 @@ body {
   text-align: center;
 }
 
-.lp-enfermagem .read-more {
+.body-curso main.lp-enfermagem .read-more {
   background: none;
   border: 0;
   color: #f47921;
@@ -604,7 +600,7 @@ body {
   text-align: center;
 }
 
-.lp-enfermagem .section-occupation {
+.body-curso main.lp-enfermagem .section-occupation {
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -612,7 +608,7 @@ body {
   margin-left: 24px;
 }
 
-.lp-enfermagem .section-occupation .round-icon {
+.body-curso main.lp-enfermagem .section-occupation .round-icon {
   align-items: center;
   border: 2px solid #f47921;
   border-radius: 23px;
@@ -625,7 +621,7 @@ body {
   top: 10px;
 }
 
-.lp-enfermagem .section-occupation-gray-line {
+.body-curso main.lp-enfermagem .section-occupation-gray-line {
   align-items: flex-end;
   display: flex;
   margin-top: 72px;
@@ -633,27 +629,27 @@ body {
   width: 1200px;
 }
 
-.lp-enfermagem .section-occupation-gray-line .first-segment {
+.body-curso main.lp-enfermagem .section-occupation-gray-line .first-segment {
   align-items: center;
   display: flex;
   position: absolute;
   bottom: -9px;
 }
 
-.lp-enfermagem .section-occupation-gray-line .circle-pin {
+.body-curso main.lp-enfermagem .section-occupation-gray-line .circle-pin {
   border: 2px solid #bdbdbd;
   border-radius: 50%;
   height: 20px;
   width: 20px;
 }
 
-.lp-enfermagem .section-occupation-gray-line .line {
+.body-curso main.lp-enfermagem .section-occupation-gray-line .line {
   background: #bdbdbd;
   height: 2px;
   width: 80px;
 }
 
-.lp-enfermagem .section-occupation-gray-line .middle-line {
+.body-curso main.lp-enfermagem .section-occupation-gray-line .middle-line {
   background: #bdbdbd;
   height: 2px;
   position: absolute;
@@ -708,7 +704,7 @@ body {
   text-align: center;
 }
 
-.lp-enfermagem #itemUm h2.text-title {
+.body-curso main.lp-enfermagem #itemUm h2.text-title {
   margin-top: 110px !important;
   font-size: 60px;
   font-weight: 700;
@@ -718,12 +714,12 @@ body {
   position: relative;
 }
 
-.lp-enfermagem .itemUm .container {
+.body-curso main.lp-enfermagem .itemUm .container {
   z-index: 4;
 }
 
 .lp-enfermagem .bg-smile {
-  background-image: url(../images/header.png);
+  background-image: url("https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/header.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top right;
@@ -770,7 +766,8 @@ body {
 }
 
 .lp-enfermagem .breadcrumb-item + .breadcrumb-item::before {
-  background: url(../images/long-arrow-alt-right.png) no-repeat;
+  background: url("https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/long-arrow-alt-right.png")
+    no-repeat;
   background-size: contain;
   background-position: 50% 45%;
   width: 15px;
@@ -839,7 +836,7 @@ body {
   bottom: -15vw;
 }
 
-.lp-enfermagem #itemQuatro::after {
+.body-curso main.lp-enfermagem #itemQuatro::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -971,62 +968,62 @@ body {
 
 /* // If you use .navbar with .smooth-scroll, use this code to avoid overlapping navigation to a header.  ------------------------- */
 
-.lp-enfermagem #itemUm::before,
-.lp-enfermagem #itemDois::before,
-.lp-enfermagem #itemTres::before,
-.lp-enfermagem #itemQuatro::before,
-.lp-enfermagem #itemCinco::before,
-.lp-enfermagem #itemSeis::before,
-.lp-enfermagem #itemSete::before,
-.lp-enfermagem #itemOito::before {
+.body-curso #main-container.lp-enfermagem #itemUm::before,
+.body-curso #main-container.lp-enfermagem #itemDois::before,
+.body-curso #main-container.lp-enfermagem #itemTres::before,
+.body-curso #main-container.lp-enfermagem #itemQuatro::before,
+.body-curso #main-container.lp-enfermagem #itemCinco::before,
+.body-curso #main-container.lp-enfermagem #itemSeis::before,
+.body-curso #main-container.lp-enfermagem #itemSete::before,
+.body-curso #main-container.lp-enfermagem #itemOito::before {
   display: block;
   content: " ";
-  margin-top: -65px;
-  height: 65px;
+  /*margin-top: -65px;*/
+  /*height: 65px;*/
   visibility: hidden;
 }
 
 @media (min-width: 361px) and (max-width: 576px) {
-  *.hideThis {
+  .lp-enfermagem *.hideThis {
     display: none !important;
   }
 
-  *.hideDesk {
+  .lp-enfermagem *.hideDesk {
     display: block;
   }
 
-  *.to-left {
+  .lp-enfermagem *.to-left {
     text-align: left !important;
   }
 }
 
 @media (max-width: 370px) {
-  *.to-left {
+  .lp-enfermagem *.to-left {
     text-align: left !important;
   }
 
-  *.hideThis {
+  .lp-enfermagem *.hideThis {
     display: none !important;
   }
 
-  *.hideDesk {
+  .lp-enfermagem *.hideDesk {
     display: block;
   }
 
-  *.to-left {
+  .lp-enfermagem *.to-left {
     text-align: left !important;
   }
 }
 
 @media (max-width: 800px) {
-  .lp-enfermagem .section-title {
+  .body-curso main.lp-enfermagem .section-title {
     font-size: 25px;
     line-height: 28px;
     margin: 36px 0;
     text-align: center;
   }
 
-  .lp-enfermagem .section-title-container {
+  .body-curso main.lp-enfermagem .section-title-container {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -1034,11 +1031,11 @@ body {
     margin-top: 0;
   }
 
-  .lp-enfermagem .section-title.career {
+  .body-curso main.lp-enfermagem .section-title.career {
     align-self: center;
   }
 
-  .lp-enfermagem .section-paragraph {
+  .body-curso main.lp-enfermagem .section-paragraph {
     font-family: "Montserrat";
     font-size: 15px;
     font-weight: 500;
@@ -1046,13 +1043,13 @@ body {
     text-align: center;
   }
 
-  .lp-enfermagem .section-image {
+  .body-curso main.lp-enfermagem .section-image {
     max-width: 100%;
     position: absolute;
     bottom: -460px;
   }
 
-  .lp-enfermagem .section-career-paragraph {
+  .body-curso main.lp-enfermagem .section-career-paragraph {
     font-size: 18px;
     font-family: "Open Sans";
     line-height: 24px;
@@ -1318,7 +1315,7 @@ body {
     text-align: center;
   }
 
-  .lp-enfermagem .section-occupation {
+  .body-curso main.lp-enfermagem .section-occupation {
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -1326,7 +1323,7 @@ body {
     margin-left: 24px;
   }
 
-  .lp-enfermagem .section-occupation .round-icon {
+  .body-curso main.lp-enfermagem .section-occupation .round-icon {
     align-items: center;
     border: 2px solid #f47921;
     border-radius: 23px;
@@ -1339,7 +1336,7 @@ body {
     top: 10px;
   }
 
-  .lp-enfermagem .section-occupation-gray-line {
+  .body-curso main.lp-enfermagem .section-occupation-gray-line {
     align-items: flex-end;
     display: flex;
     margin-top: 72px;
@@ -1347,27 +1344,27 @@ body {
     width: 1200px;
   }
 
-  .lp-enfermagem .section-occupation-gray-line .first-segment {
+  .body-curso main.lp-enfermagem .section-occupation-gray-line .first-segment {
     align-items: center;
     display: flex;
     position: absolute;
     bottom: -9px;
   }
 
-  .lp-enfermagem .section-occupation-gray-line .circle-pin {
+  .body-curso main.lp-enfermagem .section-occupation-gray-line .circle-pin {
     border: 2px solid #bdbdbd;
     border-radius: 50%;
     height: 20px;
     width: 20px;
   }
 
-  .lp-enfermagem .section-occupation-gray-line .line {
+  .body-curso main.lp-enfermagem .section-occupation-gray-line .line {
     background: #bdbdbd;
     height: 2px;
     width: 80px;
   }
 
-  .lp-enfermagem .section-occupation-gray-line .middle-line {
+  .body-curso main.lp-enfermagem .section-occupation-gray-line .middle-line {
     background: #bdbdbd;
     height: 2px;
     position: absolute;
@@ -1527,8 +1524,13 @@ body {
   width: 10px;
 }
 
-.lp-enfermagem #itemCinco {
+.body-curso main.lp-enfermagem #itemCinco {
   padding-bottom: 80px;
+}
+
+.body-curso #main-container.lp-enfermagem section#itemSeis,
+.body-curso #main-container.lp-enfermagem section#itemQuatro {
+  background: transparent;
 }
 
 .lp-enfermagem ol.carousel-indicators li {
@@ -1599,85 +1601,91 @@ body {
 }
 
 @media (max-width: 800px) {
-  .lp-enfermagem .bg-itemUm {
-    background: url("../images/bg-principal-mobile.png") center top repeat-x;
+  .body-curso main.lp-enfermagem .bg-itemUm {
+    background: url("https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/bg-principal-mobile.png")
+      center top repeat-x;
   }
-  .lp-enfermagem #itemUm h2.text-title {
+  .body-curso main.lp-enfermagem #itemUm h2.text-title {
     width: 96%;
     font-size: 32px !important;
     text-align: center;
     margin-top: 10px !important;
     margin-bottom: 0px !important;
   }
-  .lp-enfermagem #itemUm [aria-label] {
+  .body-curso main.lp-enfermagem #itemUm [aria-label] {
     display: none;
   }
-  .lp-enfermagem .box-onde-estudar {
+  .body-curso main.lp-enfermagem .box-onde-estudar {
     padding: 25px !important;
   }
-  .lp-enfermagem #itemUm h2.text-cinza-carbono {
+  .body-curso main.lp-enfermagem #itemUm h2.text-cinza-carbono {
     font-size: 14px !important;
     font-weight: bold;
     margin-bottom: 0px !important;
   }
-  .lp-enfermagem #itemUm div.row div.border-warning {
+  .body-curso main.lp-enfermagem #itemUm div.row div.border-warning {
     padding-right: 0px !important;
     font-size: 10px !important;
   }
-  .lp-enfermagem #itemUm .borders-box {
+  .body-curso main.lp-enfermagem #itemUm .borders-box {
     font-size: 13px !important;
     border-left: none !important;
     border-right: none !important;
     border-bottom: 1px solid #e0e0e0;
   }
-  .lp-enfermagem #itemUm .box-valor {
+  .body-curso main.lp-enfermagem #itemUm .box-valor {
     margin: 0px !important;
     padding: 0px !important;
   }
-  .lp-enfermagem #itemUm .box-valor .small {
+  .body-curso main.lp-enfermagem #itemUm .box-valor .small {
     font-size: 11px !important;
     margin: 0px !important;
     padding: 0px !important;
   }
-  .lp-enfermagem #itemUm .box-valor .text-warning {
+  .body-curso main.lp-enfermagem #itemUm .box-valor .text-warning {
     font-size: 57px !important;
     margin: 0px !important;
     padding: 0px !important;
   }
-  .lp-enfermagem #itemUm .btn-inscreva-se {
+  .body-curso main.lp-enfermagem #itemUm .btn-inscreva-se {
     width: 100%;
     font-size: 15px;
   }
-  .lp-enfermagem #itemDois h2.text-cinza-carbono {
+  .body-curso main.lp-enfermagem #itemDois h2.text-cinza-carbono {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 25px;
   }
-  .lp-enfermagem #itemDois .myTextCenter {
+  .body-curso main.lp-enfermagem #itemDois .myTextCenter {
     font-size: 14px;
     line-height: 24px;
   }
-  .lp-enfermagem #itemTres .itemTres {
+  .body-curso main.lp-enfermagem #itemTres .itemTres {
     padding-bottom: 0 !important;
   }
-  .lp-enfermagem #itemTres h2.text-cinza-carbono {
+  .body-curso main.lp-enfermagem #itemTres h2.text-cinza-carbono {
     margin-top: 0px;
     font-size: 22px;
   }
-  .lp-enfermagem #itemQuatro .container.mt-5 {
+  .body-curso main.lp-enfermagem #itemQuatro .container.mt-5 {
     margin: 0 !important;
   }
-  .lp-enfermagem #itemQuatro h2.text-cinza-carbono {
+  .body-curso main.lp-enfermagem #itemQuatro h2.text-cinza-carbono {
     margin-top: 0px;
     font-size: 22px;
   }
-  .lp-enfermagem #itemQuatro .itemQuatro .container > .container {
+  .body-curso
+    main.lp-enfermagem
+    #itemQuatro
+    .itemQuatro
+    .container
+    > .container {
     padding: 0 15px;
   }
-  .lp-enfermagem #itemCinco {
+  .body-curso main.lp-enfermagem #itemCinco {
     padding-bottom: 0;
   }
-  .lp-enfermagem #itemCinco h2.section-title {
+  .body-curso main.lp-enfermagem #itemCinco h2.section-title {
     margin-top: 0px !important;
     font-size: 22px !important;
   }
@@ -1685,32 +1693,32 @@ body {
   /* margin: 0 10% !important; */
   /* font-size: 11px !important; */
   /* } */
-  .lp-enfermagem #itemCinco .container {
+  .body-curso main.lp-enfermagem #itemCinco .container {
     padding: 0;
   }
-  .lp-enfermagem #itemCinco .section-image {
+  .body-curso main.lp-enfermagem #itemCinco .section-image {
     bottom: 0;
     position: relative;
     max-width: 160vw;
     margin-left: -35vw;
     margin-bottom: -60vw;
   }
-  .lp-enfermagem #itemSeis {
+  .body-curso main.lp-enfermagem #itemSeis {
     margin-top: 50vw;
   }
-  .lp-enfermagem #itemSeis h2.section-title {
+  .body-curso main.lp-enfermagem #itemSeis h2.section-title {
     margin-top: 0px;
     font-size: 22px;
   }
-  .lp-enfermagem #itemSeis .section-career-paragraph {
+  .body-curso main.lp-enfermagem #itemSeis .section-career-paragraph {
     font-size: 15px;
     line-height: 24px;
   }
-  .lp-enfermagem #itemSete h2.section-title {
+  .body-curso main.lp-enfermagem #itemSete h2.section-title {
     margin-top: 0px;
     font-size: 22px;
   }
-  .lp-enfermagem #itemOito h2.ssssss {
+  .body-curso main.lp-enfermagem #itemOito h2.ssssss {
     margin-top: 0px;
     font-size: 22px;
     border: 1px solid red;
@@ -1735,22 +1743,33 @@ body {
   .lp-enfermagem ol.carousel-indicators li {
     display: list-item;
   }
-  .lp-enfermagem #vantagens-de-ser.carousel {
+  .body-curso main.lp-enfermagem #vantagens-de-ser.carousel {
     padding-bottom: 0;
   }
-  .lp-enfermagem #vantagens-de-ser.carousel .carousel-item {
+  .body-curso main.lp-enfermagem #vantagens-de-ser.carousel .carousel-item {
     min-height: 310px;
   }
-  .lp-enfermagem #vantagens-de-ser.carousel .carousel-indicators {
+  .body-curso
+    main.lp-enfermagem
+    #vantagens-de-ser.carousel
+    .carousel-indicators {
     bottom: -90px;
   }
-  .lp-enfermagem #vantagens-de-ser.carousel .carousel-indicators li {
+  .body-curso
+    main.lp-enfermagem
+    #vantagens-de-ser.carousel
+    .carousel-indicators
+    li {
     background: transparent;
   }
-  .lp-enfermagem #vantagens-de-ser.carousel .carousel-indicators li.active {
+  .body-curso
+    main.lp-enfermagem
+    #vantagens-de-ser.carousel
+    .carousel-indicators
+    li.active {
     background: #57585a;
   }
-  .lp-enfermagem #sua-carreira.carousel .carousel-item {
+  .body-curso main.lp-enfermagem #sua-carreira.carousel .carousel-item {
     min-height: 450px;
   }
 }
