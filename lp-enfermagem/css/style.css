@@ -40,19 +40,19 @@ body {
   overflow-x: hidden;
 }
 
-section {
+.lp-enfermagem section {
   border: 0px solid green;
   position: relative;
 }
 
-.itemUm,
-.itemDois,
-.itemTres,
-.itemQuatro,
-.itemCinco,
-.itemSeis,
-.itemSete,
-.itemOito {
+.lp-enfermagem .itemUm,
+.lp-enfermagem .itemDois,
+.lp-enfermagem .itemTres,
+.lp-enfermagem .itemQuatro,
+.lp-enfermagem .itemCinco,
+.lp-enfermagem .itemSeis,
+.lp-enfermagem .itemSete,
+.lp-enfermagem .itemOito {
   display: block;
   min-height: 273px;
   padding-top: 1px;
@@ -63,10 +63,11 @@ section {
   margin: 0;
 }
 
-.bg-itemUm {
+.lp-enfermagem .bg-itemUm {
   background: url("../images/bg-principal.jpg") right top no-repeat;
 }
-.long-arrow-alt-right {
+
+.lp-enfermagem .long-arrow-alt-right {
   display: inline-block;
   width: 26px;
   height: 10px;
@@ -74,17 +75,19 @@ section {
   background: url("../images/long-arrow-alt-right.png") center center no-repeat;
 }
 
-section#itemDois {
+.lp-enfermagem section#itemDois {
   margin-top: -5px !important;
   padding-top: 0 !important;
   height: 560px;
   background: url("../images/bg-border-right.png") right top no-repeat;
   border: 1px solid #ffffff;
 }
-.boxItemDois {
+
+.lp-enfermagem .boxItemDois {
   height: 580px;
 }
-.bg-itemDois {
+
+.lp-enfermagem .bg-itemDois {
   margin: 0 !important;
   padding: 0 !important;
   height: 551px;
@@ -92,199 +95,200 @@ section#itemDois {
   top: -551px;
   background: url("../images/bg-border-left.png") left no-repeat;
 }
-.myTextCenter {
+
+.lp-enfermagem .myTextCenter {
   padding: 0 26%;
 }
 
 @media (max-width: 1119px) {
-  section#itemDois {
+  .lp-enfermagem section#itemDois {
     background: none;
   }
-  .bg-itemDois {
+  .lp-enfermagem .bg-itemDois {
     display: none;
   }
-  .myTextCenter {
+  .lp-enfermagem .myTextCenter {
     padding: 0 6%;
   }
 }
 
-section#itemTres {
+.lp-enfermagem section#itemTres {
   padding-top: 0px;
 }
 
-section#footer {
+.lp-enfermagem section#footer {
   background: #4f4f4f;
   padding-top: 0px;
   height: 263px;
 }
 
-.footer {
+.lp-enfermagem .footer {
   padding-top: 30px;
   padding-bottom: 10px;
   border: 0px solid red;
 }
 
-.hide {
+.lp-enfermagem .hide {
   display: none;
 }
 
-.hideDesk {
+.lp-enfermagem .hideDesk {
   display: none;
 }
 
-.text-laranja {
+.lp-enfermagem .text-laranja {
   color: #f47921;
 }
 
-.text-laranja2 {
+.lp-enfermagem .text-laranja2 {
   color: #f05021;
 }
 
-.text-cinza-carbono {
+.lp-enfermagem .text-cinza-carbono {
   color: #57585a;
 }
 
-.bg-laranja {
+.lp-enfermagem .bg-laranja {
   background-color: #f7931d;
 }
 
-.bg-laranja2 {
+.lp-enfermagem .bg-laranja2 {
   background-color: #f47921;
 }
 
-.text-laranjinha {
+.lp-enfermagem .text-laranjinha {
   color: #f47921;
 }
 
-.btn-laranja {
+.lp-enfermagem .btn-laranja {
   background-color: #f05021;
 }
 
-.btn-outline-laranja {
+.lp-enfermagem .btn-outline-laranja {
   border-color: #f05021;
 }
 
-.btn-outline-laranja:hover {
+.lp-enfermagem .btn-outline-laranja:hover {
   background-color: #d24a21;
   border-color: #f05021;
   color: #ffffff !important;
 }
 
-.btn-laranja:hover {
+.lp-enfermagem .btn-laranja:hover {
   background-color: #d24a21;
 }
 
-.anchorPoint {
+.lp-enfermagem .anchorPoint {
   height: 5px;
 }
 
-.card-icons {
+.lp-enfermagem .card-icons {
   text-align: center !important;
   width: 100% !important;
   height: 52px !important;
 }
 
-.card-text {
+.lp-enfermagem .card-text {
   min-height: 60px !important;
   margin-bottom: 20px;
 }
 
-section#itemSeteMobile div#headingOne,
-section#itemSeteMobile div#headingTwo,
-section#itemSeteMobile div#headingThree {
+.lp-enfermagem section#itemSeteMobile div#headingOne,
+.lp-enfermagem section#itemSeteMobile div#headingTwo,
+.lp-enfermagem section#itemSeteMobile div#headingThree {
   margin: 0px 0px 8px 52px;
   padding-bottom: 2px;
   background-color: #ffffff;
   border: 1px solid #bdbdbd;
 }
 
-section#itemSeteMobile div#headingFour {
+.lp-enfermagem section#itemSeteMobile div#headingFour {
   margin: 0px 0px 1px 52px;
   padding-bottom: 2px;
   background-color: #ffffff;
   border: 1px solid #bdbdbd;
 }
 
-section#itemSeteMobile div.headingOne {
+.lp-enfermagem section#itemSeteMobile div.headingOne {
   display: inline-block;
   z-index: 0 !important;
   background: url("../images/icone-nivel-medio.png") 0% 0% no-repeat;
 }
 
-section#itemSeteMobile div.headingTwo {
+.lp-enfermagem section#itemSeteMobile div.headingTwo {
   display: inline-block;
   z-index: 0 !important;
   background: url("../images/icone-tecnico.png") 0% 0% no-repeat;
 }
 
-section#itemSeteMobile div.headingThree {
+.lp-enfermagem section#itemSeteMobile div.headingThree {
   display: inline-block;
   z-index: 0 !important;
   background: url("../images/icone-bacharelado.png") 0% 0% no-repeat;
 }
 
-section#itemSeteMobile div.headingFour {
+.lp-enfermagem section#itemSeteMobile div.headingFour {
   display: inline-block;
   z-index: 0 !important;
   background: url("../images/icone-pos.png") 0% 0% no-repeat;
 }
 
-section#itemSeteMobile p.card-body {
+.lp-enfermagem section#itemSeteMobile p.card-body {
   margin: 7px 0px 16px 72px !important;
   padding: 0px 0px 0px 0px !important;
   line-height: 18px;
 }
 
-section#itemSeteMobile h6.text-laranja {
+.lp-enfermagem section#itemSeteMobile h6.text-laranja {
   background: url("../images/arrow-down.png") 98% center no-repeat;
 }
 
-section#itemSeteMobile .coren-container-mobile {
+.lp-enfermagem section#itemSeteMobile .coren-container-mobile {
   background: #f2f2f2;
   width: 93%;
 }
 
-section#itemSeteMobile .coren-paragraph-mobile {
+.lp-enfermagem section#itemSeteMobile .coren-paragraph-mobile {
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
   text-align: center;
 }
 @media (min-width: 1165px) {
-  section#itemSeteMobile {
+  .lp-enfermagem section#itemSeteMobile {
     display: none;
   }
 }
 @media (max-width: 1164px) {
-  section#itemSete {
+  .lp-enfermagem section#itemSete {
     display: none;
   }
-  section#itemSeteMobile {
+  .lp-enfermagem section#itemSeteMobile {
     display: block;
   }
 }
 
 /* Featurettes ------------------------- */
 
-.featurette-divider {
+.lp-enfermagem .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
-.featurette-heading {
+.lp-enfermagem .featurette-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.05rem;
 }
 
-.bg-divider {
+.lp-enfermagem .bg-divider {
   height: 20px;
   position: relative;
   bottom: -10px;
   background-position: center bottom;
 }
 
-.bg-divider-none {
+.lp-enfermagem .bg-divider-none {
   height: 20px;
   position: relative;
   bottom: -10px;
@@ -293,18 +297,18 @@ section#itemSeteMobile .coren-paragraph-mobile {
 
 /* ------------ */
 
-.section-title {
+.lp-enfermagem .section-title {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2em;
   margin: 36px 0;
 }
 
-.section-title span {
+.lp-enfermagem .section-title span {
   color: #57585a;
 }
 
-.section-title-container {
+.lp-enfermagem .section-title-container {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -312,27 +316,27 @@ section#itemSeteMobile .coren-paragraph-mobile {
   margin-top: 0;
 }
 
-.section-title.career {
+.lp-enfermagem .section-title.career {
   align-self: center;
 }
 
-.section-title.career span {
+.lp-enfermagem .section-title.career span {
   color: #f47921;
 }
 
-.section-paragraph {
+.lp-enfermagem .section-paragraph {
   font-family: "Open Sans";
   font-size: 18px;
   line-height: 174%;
 }
 
-.section-image {
+.lp-enfermagem .section-image {
   max-width: 164%;
   position: absolute;
   bottom: -460px;
 }
 
-.section-career-paragraph {
+.lp-enfermagem .section-career-paragraph {
   font-size: 18px;
   font-family: "Open Sans";
   line-height: 24px;
@@ -344,7 +348,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   width: 100%;
 } */
 
-.testimony-paragraph {
+.lp-enfermagem .testimony-paragraph {
   color: #402b2b;
   display: -webkit-box;
   font-family: "Open Sans";
@@ -358,7 +362,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   -webkit-box-orient: vertical;
 }
 
-.testimony-container {
+.lp-enfermagem .testimony-container {
   background: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
@@ -368,7 +372,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   padding: 16px 20px;
 }
 
-.testimony-author {
+.lp-enfermagem .testimony-author {
   color: #402b2b;
   font-size: 16px;
   font-weight: 700;
@@ -378,7 +382,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   text-align: center;
 }
 
-.testimony-course {
+.lp-enfermagem .testimony-course {
   color: #402b2b;
   font-size: 12px;
   font-weight: 300;
@@ -387,7 +391,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   text-align: center;
 }
 
-.read-more {
+.lp-enfermagem .read-more {
   background: none;
   border: 0;
   color: #f47921;
@@ -400,7 +404,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
 }
 
 /* The Modal (background) */
-.modal {
+.lp-enfermagem .modal {
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   bottom: 0;
@@ -416,7 +420,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
 }
 
 /* Modal Content/Box */
-.modal-content {
+.lp-enfermagem .modal-content {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -427,13 +431,13 @@ section#itemSeteMobile .coren-paragraph-mobile {
   padding: 36px;
 }
 
-.modal-content .header {
+.lp-enfermagem .modal-content .header {
   align-items: center;
   display: flex;
   justify-content: space-between;
 }
 
-.modal-content .testimony-author {
+.lp-enfermagem .modal-content .testimony-author {
   color: #402b2b;
   font-size: 18px;
   font-weight: 700;
@@ -443,7 +447,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   text-align: center;
 }
 
-.modal-content .testimony-course {
+.lp-enfermagem .modal-content .testimony-course {
   color: #402b2b;
   font-size: 14px;
   font-weight: 300;
@@ -452,7 +456,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   text-align: left;
 }
 
-.modal-content .testimony-paragraph {
+.lp-enfermagem .modal-content .testimony-paragraph {
   color: #402b2b;
   display: block;
   font-family: "Open Sans";
@@ -464,21 +468,21 @@ section#itemSeteMobile .coren-paragraph-mobile {
 }
 
 /* The Close Button */
-.close {
+.lp-enfermagem .close {
   color: #aaa;
   font-size: 28px;
   line-height: 0;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.lp-enfermagem .close:hover,
+.lp-enfermagem .close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
 
-.career-card {
+.lp-enfermagem .career-card {
   border: 2px solid #bdbdbd;
   border-radius: 8px;
   /* height: 460px; */
@@ -486,14 +490,14 @@ section#itemSeteMobile .coren-paragraph-mobile {
   height: 100%;
 }
 
-.career-card-header {
+.lp-enfermagem .career-card-header {
   align-items: flex-start;
   display: flex;
   justify-content: flex-start;
   margin: 32px 28px 0 28px;
 }
 
-.career-card-header .round-icon {
+.lp-enfermagem .career-card-header .round-icon {
   align-items: center;
   border: 2px solid #f47921;
   border-radius: 23px;
@@ -503,16 +507,16 @@ section#itemSeteMobile .coren-paragraph-mobile {
   width: 46px;
 }
 
-.career-card-header .round-icon img {
+.lp-enfermagem .career-card-header .round-icon img {
   height: auto;
   width: 18px;
 }
 
-.career-card-title {
+.lp-enfermagem .career-card-title {
   width: 80%;
 }
 
-.career-card-title h2 {
+.lp-enfermagem .career-card-title h2 {
   color: #57585a;
   font-size: 18px;
   font-weight: 800;
@@ -521,23 +525,23 @@ section#itemSeteMobile .coren-paragraph-mobile {
   max-width: 88%;
 }
 
-.career-card-item {
+.lp-enfermagem .career-card-item {
   border-left: 2px solid #f47921;
   margin: -2% 24px 0 50px;
   position: relative;
   padding: 0 0 4%;
 }
 
-.career-card-item:nth-of-type(2) {
+.lp-enfermagem .career-card-item:nth-of-type(2) {
   padding-top: 36px;
 }
 
-.career-card-item:last-of-type {
+.lp-enfermagem .career-card-item:last-of-type {
   border-left: transparent;
   margin-left: 52px;
 }
 
-.career-card-item .bullet {
+.lp-enfermagem .career-card-item .bullet {
   background: #f47921;
   border-radius: 50%;
   height: 10px;
@@ -547,7 +551,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   width: 10px;
 }
 
-.career-card-item .text {
+.lp-enfermagem .career-card-item .text {
   color: #57585a;
   font-family: "Open Sans";
   font-size: 15px;
@@ -556,14 +560,14 @@ section#itemSeteMobile .coren-paragraph-mobile {
   margin-left: 48px;
 }
 
-.cards-occupation-container {
+.lp-enfermagem .cards-occupation-container {
   align-self: center;
   display: flex;
   margin-top: -72px;
   padding-top: 20px;
 }
 
-.card-occupation {
+.lp-enfermagem .card-occupation {
   display: flex;
   flex-direction: column;
   margin: 0 24px;
@@ -572,7 +576,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   width: 250px;
 }
 
-.card-occupation-header h2 {
+.lp-enfermagem .card-occupation-header h2 {
   color: #f47921;
   font-size: 20px;
   font-weight: 800;
@@ -580,7 +584,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   text-align: center;
 }
 
-.card-occupation-title {
+.lp-enfermagem .card-occupation-title {
   align-self: center;
   font-size: 18px;
   font-weight: 700;
@@ -590,7 +594,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   text-align: center;
 }
 
-.card-occupation-paragraph {
+.lp-enfermagem .card-occupation-paragraph {
   font-family: "Open Sans";
   font-size: 15px;
   font-weight: 400;
@@ -600,7 +604,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   text-align: center;
 }
 
-.section-occupation {
+.lp-enfermagem .section-occupation {
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -608,7 +612,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   margin-left: 24px;
 }
 
-.section-occupation .round-icon {
+.lp-enfermagem .section-occupation .round-icon {
   align-items: center;
   border: 2px solid #f47921;
   border-radius: 23px;
@@ -621,7 +625,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   top: 10px;
 }
 
-.section-occupation-gray-line {
+.lp-enfermagem .section-occupation-gray-line {
   align-items: flex-end;
   display: flex;
   margin-top: 72px;
@@ -629,34 +633,34 @@ section#itemSeteMobile .coren-paragraph-mobile {
   width: 1200px;
 }
 
-.section-occupation-gray-line .first-segment {
+.lp-enfermagem .section-occupation-gray-line .first-segment {
   align-items: center;
   display: flex;
   position: absolute;
   bottom: -9px;
 }
 
-.section-occupation-gray-line .circle-pin {
+.lp-enfermagem .section-occupation-gray-line .circle-pin {
   border: 2px solid #bdbdbd;
   border-radius: 50%;
   height: 20px;
   width: 20px;
 }
 
-.section-occupation-gray-line .line {
+.lp-enfermagem .section-occupation-gray-line .line {
   background: #bdbdbd;
   height: 2px;
   width: 80px;
 }
 
-.section-occupation-gray-line .middle-line {
+.lp-enfermagem .section-occupation-gray-line .middle-line {
   background: #bdbdbd;
   height: 2px;
   position: absolute;
   width: 230px;
 }
 
-.half-circle {
+.lp-enfermagem .half-circle {
   background-color: fff;
   border: 2px solid #bdbdbd;
   border-bottom: 0;
@@ -668,7 +672,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   /* top: -35px; */
 }
 
-.vertical-line {
+.lp-enfermagem .vertical-line {
   background: #f47921;
   height: 64px;
   margin-left: 32px;
@@ -676,7 +680,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   width: 2px;
 }
 
-.coren-container {
+.lp-enfermagem .coren-container {
   align-items: center;
   align-self: flex-end;
   background: #f2f2f2;
@@ -690,13 +694,13 @@ section#itemSeteMobile .coren-paragraph-mobile {
   width: 370px;
 }
 
-.coren-title {
+.lp-enfermagem .coren-title {
   color: #f47921;
   font-size: 18px;
   font-weight: 800;
 }
 
-.coren-paragraph {
+.lp-enfermagem .coren-paragraph {
   font-family: "Open Sans";
   font-size: 15px;
   font-weight: 400;
@@ -704,21 +708,21 @@ section#itemSeteMobile .coren-paragraph-mobile {
   text-align: center;
 }
 
-#itemUm h2.text-title {
+.lp-enfermagem #itemUm h2.text-title {
   margin-top: 110px !important;
   font-size: 60px;
   font-weight: 700;
 }
 
-.container {
+.lp-enfermagem .container {
   position: relative;
 }
 
-.itemUm .container {
+.lp-enfermagem .itemUm .container {
   z-index: 4;
 }
 
-.bg-smile {
+.lp-enfermagem .bg-smile {
   background-image: url(../images/header.png);
   background-repeat: no-repeat;
   background-size: auto;
@@ -731,7 +735,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   z-index: 2;
 }
 
-.bg-orange-rectangle {
+.lp-enfermagem .bg-orange-rectangle {
   position: absolute;
   background-color: #f7931d;
   top: -12vw;
@@ -745,7 +749,7 @@ section#itemSeteMobile .coren-paragraph-mobile {
   z-index: 2;
 }
 
-.bg-white-rectangle {
+.lp-enfermagem .bg-white-rectangle {
   position: absolute;
   left: 0;
   right: 0;
@@ -755,17 +759,17 @@ section#itemSeteMobile .coren-paragraph-mobile {
   z-index: 2;
 }
 
-.breadcrumb-item a {
+.lp-enfermagem .breadcrumb-item a {
   font-size: 14px;
   font-weight: 400;
   color: #57585a;
 }
 
-.breadcrumb-item.active a {
+.lp-enfermagem .breadcrumb-item.active a {
   font-weight: 700;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.lp-enfermagem .breadcrumb-item + .breadcrumb-item::before {
   background: url(../images/long-arrow-alt-right.png) no-repeat;
   background-size: contain;
   background-position: 50% 45%;
@@ -775,16 +779,16 @@ section#itemSeteMobile .coren-paragraph-mobile {
   color: transparent;
 }
 
-.box-onde-estudar {
+.lp-enfermagem .box-onde-estudar {
   padding: 55px 120px;
   z-index: 5;
 }
 
-.form-group {
+.lp-enfermagem .form-group {
   margin-bottom: 18px;
 }
 
-small.form-text {
+.lp-enfermagem small.form-text {
   font-size: 15px;
   font-weight: 500;
   color: #57585a;
@@ -792,30 +796,32 @@ small.form-text {
   display: block;
 }
 
-span.select2-container .select2-selection--single {
+.lp-enfermagem span.select2-container .select2-selection--single {
   height: 43px;
   border-color: transparent;
   border-radius: 8px;
   background: #f2f2f2;
 }
 
-span.select2-container--default
+.lp-enfermagem
+  span.select2-container--default
   .select2-selection--single
   .select2-selection__rendered {
   line-height: 43px;
 }
 
-span.select2-container--default
+.lp-enfermagem
+  span.select2-container--default
   .select2-selection--single
   .select2-selection__arrow {
   height: 44px;
 }
 
-.jumbotron p {
+.lp-enfermagem .jumbotron p {
   color: #828282;
 }
 
-.bg-rectangle-border {
+.lp-enfermagem .bg-rectangle-border {
   position: absolute;
   width: 40vw;
   height: 40vw;
@@ -826,14 +832,14 @@ span.select2-container--default
   transform: rotate(54deg);
 }
 
-.bg-rectangle-border.left {
+.lp-enfermagem .bg-rectangle-border.left {
   right: auto;
   top: auto;
   left: -15vw;
   bottom: -15vw;
 }
 
-#itemQuatro::after {
+.lp-enfermagem #itemQuatro::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -846,23 +852,32 @@ span.select2-container--default
 
 @media (min-width: 768px) {
   /* show 3 items */
-  .carousel-inner .active,
-  .carousel-inner .active + .carousel-item,
-  .carousel-inner .active + .carousel-item + .carousel-item,
-  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+  .lp-enfermagem .carousel-inner .active,
+  .lp-enfermagem .carousel-inner .active + .carousel-item,
+  .lp-enfermagem .carousel-inner .active + .carousel-item + .carousel-item,
+  .lp-enfermagem
+    .carousel-inner
+    .active
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
     display: block;
   }
 
-  .carousel-inner
+  .lp-enfermagem
+    .carousel-inner
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-  .carousel-inner
+  .lp-enfermagem
+    .carousel-inner
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
     + .carousel-item,
-  .carousel-inner
+  .lp-enfermagem
+    .carousel-inner
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
     + .carousel-item
     + .carousel-item,
-  .carousel-inner
+  .lp-enfermagem
+    .carousel-inner
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
     + .carousel-item
     + .carousel-item
@@ -870,13 +885,14 @@ span.select2-container--default
     transition: none;
   }
 
-  .carousel-inner .carousel-item-next,
-  .carousel-inner .carousel-item-prev {
+  .lp-enfermagem .carousel-inner .carousel-item-next,
+  .lp-enfermagem .carousel-inner .carousel-item-prev {
     position: relative;
     transform: translate3d(0, 0, 0);
   }
 
-  .carousel-inner
+  .lp-enfermagem
+    .carousel-inner
     .active.carousel-item
     + .carousel-item
     + .carousel-item
@@ -891,14 +907,21 @@ span.select2-container--default
   }
 
   /* left or forward direction */
-  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
-  .carousel-item-next.carousel-item-left + .carousel-item,
-  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
-  .carousel-item-next.carousel-item-left
+  .lp-enfermagem
+    .active.carousel-item-left
+    + .carousel-item-next.carousel-item-left,
+  .lp-enfermagem .carousel-item-next.carousel-item-left + .carousel-item,
+  .lp-enfermagem
+    .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item,
+  .lp-enfermagem
+    .carousel-item-next.carousel-item-left
     + .carousel-item
     + .carousel-item
     + .carousel-item,
-  .carousel-item-next.carousel-item-left
+  .lp-enfermagem
+    .carousel-item-next.carousel-item-left
     + .carousel-item
     + .carousel-item
     + .carousel-item
@@ -909,7 +932,7 @@ span.select2-container--default
   }
 
   /* farthest right hidden item must be abso position for animations */
-  .carousel-inner .carousel-item-prev.carousel-item-right {
+  .lp-enfermagem .carousel-inner .carousel-item-prev.carousel-item-right {
     position: absolute;
     top: 0;
     left: 0;
@@ -919,14 +942,21 @@ span.select2-container--default
   }
 
   /* right or prev direction */
-  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
-  .carousel-item-prev.carousel-item-right + .carousel-item,
-  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
-  .carousel-item-prev.carousel-item-right
+  .lp-enfermagem
+    .active.carousel-item-right
+    + .carousel-item-prev.carousel-item-right,
+  .lp-enfermagem .carousel-item-prev.carousel-item-right + .carousel-item,
+  .lp-enfermagem
+    .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item,
+  .lp-enfermagem
+    .carousel-item-prev.carousel-item-right
     + .carousel-item
     + .carousel-item
     + .carousel-item,
-  .carousel-item-prev.carousel-item-right
+  .lp-enfermagem
+    .carousel-item-prev.carousel-item-right
     + .carousel-item
     + .carousel-item
     + .carousel-item
@@ -941,14 +971,14 @@ span.select2-container--default
 
 /* // If you use .navbar with .smooth-scroll, use this code to avoid overlapping navigation to a header.  ------------------------- */
 
-#itemUm::before,
-#itemDois::before,
-#itemTres::before,
-#itemQuatro::before,
-#itemCinco::before,
-#itemSeis::before,
-#itemSete::before,
-#itemOito::before {
+.lp-enfermagem #itemUm::before,
+.lp-enfermagem #itemDois::before,
+.lp-enfermagem #itemTres::before,
+.lp-enfermagem #itemQuatro::before,
+.lp-enfermagem #itemCinco::before,
+.lp-enfermagem #itemSeis::before,
+.lp-enfermagem #itemSete::before,
+.lp-enfermagem #itemOito::before {
   display: block;
   content: " ";
   margin-top: -65px;
@@ -989,14 +1019,14 @@ span.select2-container--default
 }
 
 @media (max-width: 800px) {
-  .section-title {
+  .lp-enfermagem .section-title {
     font-size: 25px;
     line-height: 28px;
     margin: 36px 0;
     text-align: center;
   }
 
-  .section-title-container {
+  .lp-enfermagem .section-title-container {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -1004,11 +1034,11 @@ span.select2-container--default
     margin-top: 0;
   }
 
-  .section-title.career {
+  .lp-enfermagem .section-title.career {
     align-self: center;
   }
 
-  .section-paragraph {
+  .lp-enfermagem .section-paragraph {
     font-family: "Montserrat";
     font-size: 15px;
     font-weight: 500;
@@ -1016,25 +1046,25 @@ span.select2-container--default
     text-align: center;
   }
 
-  .section-image {
+  .lp-enfermagem .section-image {
     max-width: 100%;
     position: absolute;
     bottom: -460px;
   }
 
-  .section-career-paragraph {
+  .lp-enfermagem .section-career-paragraph {
     font-size: 18px;
     font-family: "Open Sans";
     line-height: 24px;
     text-align: center;
   }
 
-  .testimonials-container {
+  .lp-enfermagem .testimonials-container {
     display: flex;
     width: 100%;
   }
 
-  .testimony-paragraph {
+  .lp-enfermagem .testimony-paragraph {
     color: #402b2b;
     display: -webkit-box;
     font-family: "Open Sans";
@@ -1048,7 +1078,7 @@ span.select2-container--default
     -webkit-box-orient: vertical;
   }
 
-  .testimony-container {
+  .lp-enfermagem .testimony-container {
     background: #fff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
@@ -1057,7 +1087,7 @@ span.select2-container--default
     padding: 16px 20px;
   }
 
-  .testimony-author {
+  .lp-enfermagem .testimony-author {
     color: #402b2b;
     font-size: 16px;
     font-weight: 700;
@@ -1067,7 +1097,7 @@ span.select2-container--default
     text-align: center;
   }
 
-  .testimony-course {
+  .lp-enfermagem .testimony-course {
     color: #402b2b;
     font-size: 12px;
     font-weight: 300;
@@ -1076,7 +1106,7 @@ span.select2-container--default
     text-align: center;
   }
 
-  .read-more {
+  .lp-enfermagem .read-more {
     background: none;
     border: 0;
     color: #f47921;
@@ -1089,7 +1119,7 @@ span.select2-container--default
   }
 
   /* The Modal (background) */
-  .modal {
+  .lp-enfermagem .modal {
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
     bottom: 0;
@@ -1105,7 +1135,7 @@ span.select2-container--default
   }
 
   /* Modal Content/Box */
-  .modal-content {
+  .lp-enfermagem .modal-content {
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1116,13 +1146,13 @@ span.select2-container--default
     padding: 36px;
   }
 
-  .modal-content .header {
+  .lp-enfermagem .modal-content .header {
     align-items: center;
     display: flex;
     justify-content: space-between;
   }
 
-  .modal-content .testimony-author {
+  .lp-enfermagem .modal-content .testimony-author {
     color: #402b2b;
     font-size: 18px;
     font-weight: 700;
@@ -1132,7 +1162,7 @@ span.select2-container--default
     text-align: center;
   }
 
-  .modal-content .testimony-course {
+  .lp-enfermagem .modal-content .testimony-course {
     color: #402b2b;
     font-size: 14px;
     font-weight: 300;
@@ -1141,7 +1171,7 @@ span.select2-container--default
     text-align: left;
   }
 
-  .modal-content .testimony-paragraph {
+  .lp-enfermagem .modal-content .testimony-paragraph {
     color: #402b2b;
     display: block;
     font-family: "Open Sans";
@@ -1153,21 +1183,21 @@ span.select2-container--default
   }
 
   /* The Close Button */
-  .close {
+  .lp-enfermagem .close {
     color: #aaa;
     font-size: 28px;
     line-height: 0;
     font-weight: bold;
   }
 
-  .close:hover,
-  .close:focus {
+  .lp-enfermagem .close:hover,
+  .lp-enfermagem .close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
   }
 
-  .career-card {
+  .lp-enfermagem .career-card {
     border: 2px solid #bdbdbd;
     border-radius: 8px;
     /* margin: 24px 12px; */
@@ -1175,14 +1205,14 @@ span.select2-container--default
     /* width: 370px; */
   }
 
-  .career-card-header {
+  .lp-enfermagem .career-card-header {
     align-items: flex-start;
     display: flex;
     justify-content: flex-start;
     margin: 32px 28px 0 28px;
   }
 
-  .career-card-header .round-icon {
+  .lp-enfermagem .career-card-header .round-icon {
     align-items: center;
     border: 2px solid #f47921;
     border-radius: 23px;
@@ -1192,16 +1222,16 @@ span.select2-container--default
     width: 46px;
   }
 
-  .career-card-header .round-icon img {
+  .lp-enfermagem .career-card-header .round-icon img {
     height: auto;
     width: 18px;
   }
 
-  .career-card-title {
+  .lp-enfermagem .career-card-title {
     width: 80%;
   }
 
-  .career-card-title h2 {
+  .lp-enfermagem .career-card-title h2 {
     color: #57585a;
     font-size: 18px;
     font-weight: 800;
@@ -1210,23 +1240,23 @@ span.select2-container--default
     max-width: 88%;
   }
 
-  .career-card-item {
+  .lp-enfermagem .career-card-item {
     border-left: 2px solid #f47921;
     margin: -2% 24px 0 50px;
     position: relative;
     padding: 0 0 4%;
   }
 
-  .career-card-item:nth-of-type(2) {
+  .lp-enfermagem .career-card-item:nth-of-type(2) {
     padding-top: 36px;
   }
 
-  .career-card-item:last-of-type {
+  .lp-enfermagem .career-card-item:last-of-type {
     border-left: transparent;
     margin-left: 52px;
   }
 
-  .career-card-item .bullet {
+  .lp-enfermagem .career-card-item .bullet {
     background: #f47921;
     border-radius: 50%;
     height: 10px;
@@ -1235,7 +1265,7 @@ span.select2-container--default
     width: 10px;
   }
 
-  .career-card-item .text {
+  .lp-enfermagem .career-card-item .text {
     color: #57585a;
     font-family: "Open Sans";
     font-size: 15px;
@@ -1244,14 +1274,14 @@ span.select2-container--default
     margin-left: 48px;
   }
 
-  .cards-occupation-container {
+  .lp-enfermagem .cards-occupation-container {
     align-self: center;
     display: flex;
     margin-top: -72px;
     padding-top: 20px;
   }
 
-  .card-occupation {
+  .lp-enfermagem .card-occupation {
     display: flex;
     flex-direction: column;
     margin: 0 24px;
@@ -1260,7 +1290,7 @@ span.select2-container--default
     width: 250px;
   }
 
-  .card-occupation-header h2 {
+  .lp-enfermagem .card-occupation-header h2 {
     color: #f47921;
     font-size: 20px;
     font-weight: 800;
@@ -1268,7 +1298,7 @@ span.select2-container--default
     text-align: center;
   }
 
-  .card-occupation-title {
+  .lp-enfermagem .card-occupation-title {
     align-self: center;
     font-size: 18px;
     font-weight: 700;
@@ -1278,7 +1308,7 @@ span.select2-container--default
     text-align: center;
   }
 
-  .card-occupation-paragraph {
+  .lp-enfermagem .card-occupation-paragraph {
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 400;
@@ -1288,7 +1318,7 @@ span.select2-container--default
     text-align: center;
   }
 
-  .section-occupation {
+  .lp-enfermagem .section-occupation {
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -1296,7 +1326,7 @@ span.select2-container--default
     margin-left: 24px;
   }
 
-  .section-occupation .round-icon {
+  .lp-enfermagem .section-occupation .round-icon {
     align-items: center;
     border: 2px solid #f47921;
     border-radius: 23px;
@@ -1309,7 +1339,7 @@ span.select2-container--default
     top: 10px;
   }
 
-  .section-occupation-gray-line {
+  .lp-enfermagem .section-occupation-gray-line {
     align-items: flex-end;
     display: flex;
     margin-top: 72px;
@@ -1317,34 +1347,34 @@ span.select2-container--default
     width: 1200px;
   }
 
-  .section-occupation-gray-line .first-segment {
+  .lp-enfermagem .section-occupation-gray-line .first-segment {
     align-items: center;
     display: flex;
     position: absolute;
     bottom: -9px;
   }
 
-  .section-occupation-gray-line .circle-pin {
+  .lp-enfermagem .section-occupation-gray-line .circle-pin {
     border: 2px solid #bdbdbd;
     border-radius: 50%;
     height: 20px;
     width: 20px;
   }
 
-  .section-occupation-gray-line .line {
+  .lp-enfermagem .section-occupation-gray-line .line {
     background: #bdbdbd;
     height: 2px;
     width: 80px;
   }
 
-  .section-occupation-gray-line .middle-line {
+  .lp-enfermagem .section-occupation-gray-line .middle-line {
     background: #bdbdbd;
     height: 2px;
     position: absolute;
     width: 230px;
   }
 
-  .half-circle {
+  .lp-enfermagem .half-circle {
     background-color: fff;
     border: 2px solid #bdbdbd;
     border-bottom: 0;
@@ -1356,7 +1386,7 @@ span.select2-container--default
     /* top: -35px; */
   }
 
-  .vertical-line {
+  .lp-enfermagem .vertical-line {
     background: #f47921;
     height: 64px;
     margin-left: 32px;
@@ -1364,7 +1394,7 @@ span.select2-container--default
     width: 2px;
   }
 
-  .coren-container {
+  .lp-enfermagem .coren-container {
     align-items: center;
     align-self: flex-end;
     background: #f2f2f2;
@@ -1378,13 +1408,13 @@ span.select2-container--default
     width: 370px;
   }
 
-  .coren-title {
+  .lp-enfermagem .coren-title {
     color: #f47921;
     font-size: 18px;
     font-weight: 800;
   }
 
-  .coren-paragraph {
+  .lp-enfermagem .coren-paragraph {
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 400;
@@ -1399,12 +1429,12 @@ span.select2-container--default
 /* CUSTOMIZE THE CAROUSEL -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
+.lp-enfermagem .carousel {
   padding-bottom: 4rem;
 }
 
 /* Since positioning the image, we need to help out the caption */
-.carousel-caption {
+.lp-enfermagem .carousel-caption {
   /* height: 30px; */
   width: 400px;
   left: 0;
@@ -1412,7 +1442,7 @@ span.select2-container--default
   z-index: 10;
 }
 
-.carousel-sub-caption {
+.lp-enfermagem .carousel-sub-caption {
   /* height: 30px; */
   left: 0;
   top: 16rem;
@@ -1420,7 +1450,7 @@ span.select2-container--default
   z-index: 11 !important;
 }
 
-.carousel-sub-caption:after {
+.lp-enfermagem .carousel-sub-caption:after {
   content: "";
   display: block;
   position: absolute;
@@ -1434,7 +1464,7 @@ span.select2-container--default
   padding-bottom: 39px !important;
 }
 
-ol.carousel-indicatorss {
+.lp-enfermagem ol.carousel-indicatorss {
   /* height: 30px; */
   left: 0;
   top: 16.5rem;
@@ -1450,7 +1480,7 @@ ol.carousel-indicatorss {
   background-color: #f00;
 } */
 
-.carousel-inner {
+.lp-enfermagem .carousel-inner {
   /* height: 350px; */
   flex-wrap: nowrap;
 }
@@ -1459,19 +1489,19 @@ ol.carousel-indicatorss {
   height: 480px;
 } */
 
-a.carousel-item:hover {
+.lp-enfermagem a.carousel-item:hover {
   text-decoration: none !important;
 }
-a.carousel-item:hover p,
-a.carousel-item:hover h1 {
+.lp-enfermagem a.carousel-item:hover p,
+.lp-enfermagem a.carousel-item:hover h1 {
   color: #ffd500 !important;
 }
 
-.carousel-item {
+.lp-enfermagem .carousel-item {
   background: #fff;
 }
 
-.carousel-multi-item .carousel-indicators li {
+.lp-enfermagem .carousel-multi-item .carousel-indicators li {
   background-color: #fff;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -1481,7 +1511,7 @@ a.carousel-item:hover h1 {
   border: 1px solid #57585a;
 }
 
-.carousel .carousel-indicators li {
+.lp-enfermagem .carousel .carousel-indicators li {
   width: 0.625rem;
   height: 0.625rem;
   -webkit-border-radius: 50%;
@@ -1489,7 +1519,7 @@ a.carousel-item:hover h1 {
   cursor: pointer;
 }
 
-.carousel-multi-item .carousel-indicators .active {
+.lp-enfermagem .carousel-multi-item .carousel-indicators .active {
   background-color: #57585a;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -1497,16 +1527,16 @@ a.carousel-item:hover h1 {
   width: 10px;
 }
 
-#itemCinco {
+.lp-enfermagem #itemCinco {
   padding-bottom: 80px;
 }
 
-ol.carousel-indicators li {
+.lp-enfermagem ol.carousel-indicators li {
   display: none;
 }
 
-ol.carousel-indicators li:first-child,
-ol.carousel-indicators li:nth-child(2) {
+.lp-enfermagem ol.carousel-indicators li:first-child,
+.lp-enfermagem ol.carousel-indicators li:nth-child(2) {
   display: list-item;
 }
 
@@ -1515,33 +1545,33 @@ ol.carousel-indicators li:nth-child(2) {
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
-  .carousel-caption h1 {
+  .lp-enfermagem .carousel-caption h1 {
     font-weight: 700;
     font-size: 2.2rem;
     line-height: 1.4;
   }
-  .carousel-sub-caption p {
+  .lp-enfermagem .carousel-sub-caption p {
     font-size: 1rem;
     line-height: 1.4;
     padding: 5px 10px;
   }
 
-  .featurette-heading {
+  .lp-enfermagem .featurette-heading {
     font-size: 50px;
   }
 }
 
 @media (max-width: 39em) {
-  .carousel-caption {
+  .lp-enfermagem .carousel-caption {
     width: 250px;
   }
-  .carousel-caption h1 {
+  .lp-enfermagem .carousel-caption h1 {
     font-size: 1.25rem;
   }
-  .carousel-sub-caption {
+  .lp-enfermagem .carousel-sub-caption {
     top: 16.3rem;
   }
-  .carousel-sub-caption p {
+  .lp-enfermagem .carousel-sub-caption p {
     font-size: 0.7rem;
     padding: 6px 12px;
     border: 0px solid red !important;
@@ -1549,104 +1579,105 @@ ol.carousel-indicators li:nth-child(2) {
 }
 
 @media (min-width: 62em) {
-  .featurette-heading {
+  .lp-enfermagem .featurette-heading {
     margin-top: 7rem;
   }
 }
 
 /* MOBILE -----------------------------------------*/
 @media (max-width: 320px) {
-  .career-card-item,
-  .career-card-item:last-of-type {
+  .lp-enfermagem .career-card-item,
+  .lp-enfermagem .career-card-item:last-of-type {
     margin-left: 30px;
   }
-  .career-card-title h2 {
+  .lp-enfermagem .career-card-title h2 {
     margin-left: 23px;
   }
-  .career-card-header {
+  .lp-enfermagem .career-card-header {
     margin-left: 10px;
   }
 }
+
 @media (max-width: 800px) {
-  .bg-itemUm {
+  .lp-enfermagem .bg-itemUm {
     background: url("../images/bg-principal-mobile.png") center top repeat-x;
   }
-  #itemUm h2.text-title {
+  .lp-enfermagem #itemUm h2.text-title {
     width: 96%;
     font-size: 32px !important;
     text-align: center;
     margin-top: 10px !important;
     margin-bottom: 0px !important;
   }
-  #itemUm [aria-label] {
+  .lp-enfermagem #itemUm [aria-label] {
     display: none;
   }
-  .box-onde-estudar {
+  .lp-enfermagem .box-onde-estudar {
     padding: 25px !important;
   }
-  #itemUm h2.text-cinza-carbono {
+  .lp-enfermagem #itemUm h2.text-cinza-carbono {
     font-size: 14px !important;
     font-weight: bold;
     margin-bottom: 0px !important;
   }
-  #itemUm div.row div.border-warning {
+  .lp-enfermagem #itemUm div.row div.border-warning {
     padding-right: 0px !important;
     font-size: 10px !important;
   }
-  #itemUm .borders-box {
+  .lp-enfermagem #itemUm .borders-box {
     font-size: 13px !important;
     border-left: none !important;
     border-right: none !important;
     border-bottom: 1px solid #e0e0e0;
   }
-  #itemUm .box-valor {
+  .lp-enfermagem #itemUm .box-valor {
     margin: 0px !important;
     padding: 0px !important;
   }
-  #itemUm .box-valor .small {
+  .lp-enfermagem #itemUm .box-valor .small {
     font-size: 11px !important;
     margin: 0px !important;
     padding: 0px !important;
   }
-  #itemUm .box-valor .text-warning {
+  .lp-enfermagem #itemUm .box-valor .text-warning {
     font-size: 57px !important;
     margin: 0px !important;
     padding: 0px !important;
   }
-  #itemUm .btn-inscreva-se {
+  .lp-enfermagem #itemUm .btn-inscreva-se {
     width: 100%;
     font-size: 15px;
   }
-  #itemDois h2.text-cinza-carbono {
+  .lp-enfermagem #itemDois h2.text-cinza-carbono {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 25px;
   }
-  #itemDois .myTextCenter {
+  .lp-enfermagem #itemDois .myTextCenter {
     font-size: 14px;
     line-height: 24px;
   }
-  #itemTres .itemTres {
+  .lp-enfermagem #itemTres .itemTres {
     padding-bottom: 0 !important;
   }
-  #itemTres h2.text-cinza-carbono {
+  .lp-enfermagem #itemTres h2.text-cinza-carbono {
     margin-top: 0px;
     font-size: 22px;
   }
-  #itemQuatro .container.mt-5 {
+  .lp-enfermagem #itemQuatro .container.mt-5 {
     margin: 0 !important;
   }
-  #itemQuatro h2.text-cinza-carbono {
+  .lp-enfermagem #itemQuatro h2.text-cinza-carbono {
     margin-top: 0px;
     font-size: 22px;
   }
-  #itemQuatro .itemQuatro .container > .container {
+  .lp-enfermagem #itemQuatro .itemQuatro .container > .container {
     padding: 0 15px;
   }
-  #itemCinco {
+  .lp-enfermagem #itemCinco {
     padding-bottom: 0;
   }
-  #itemCinco h2.section-title {
+  .lp-enfermagem #itemCinco h2.section-title {
     margin-top: 0px !important;
     font-size: 22px !important;
   }
@@ -1654,72 +1685,72 @@ ol.carousel-indicators li:nth-child(2) {
   /* margin: 0 10% !important; */
   /* font-size: 11px !important; */
   /* } */
-  #itemCinco .container {
+  .lp-enfermagem #itemCinco .container {
     padding: 0;
   }
-  #itemCinco .section-image {
+  .lp-enfermagem #itemCinco .section-image {
     bottom: 0;
     position: relative;
     max-width: 160vw;
     margin-left: -35vw;
     margin-bottom: -60vw;
   }
-  #itemSeis {
+  .lp-enfermagem #itemSeis {
     margin-top: 50vw;
   }
-  #itemSeis h2.section-title {
+  .lp-enfermagem #itemSeis h2.section-title {
     margin-top: 0px;
     font-size: 22px;
   }
-  #itemSeis .section-career-paragraph {
+  .lp-enfermagem #itemSeis .section-career-paragraph {
     font-size: 15px;
     line-height: 24px;
   }
-  #itemSete h2.section-title {
+  .lp-enfermagem #itemSete h2.section-title {
     margin-top: 0px;
     font-size: 22px;
   }
-  #itemOito h2.ssssss {
+  .lp-enfermagem #itemOito h2.ssssss {
     margin-top: 0px;
     font-size: 22px;
     border: 1px solid red;
   }
-  .container > .container {
+  .lp-enfermagem .container > .container {
     padding: 0;
   }
-  .container-fluid > .container {
+  .lp-enfermagem .container-fluid > .container {
     padding: 0;
   }
-  .select2-container {
+  .lp-enfermagem .select2-container {
     width: 100% !important;
   }
-  .jumbotron {
+  .lp-enfermagem .jumbotron {
     margin-bottom: 14px;
     padding: 18px !important;
   }
-  .carousel .jumbotron {
+  .lp-enfermagem .carousel .jumbotron {
     padding: 0 !important;
     margin: 0 !important;
   }
-  ol.carousel-indicators li {
+  .lp-enfermagem ol.carousel-indicators li {
     display: list-item;
   }
-  #vantagens-de-ser.carousel {
+  .lp-enfermagem #vantagens-de-ser.carousel {
     padding-bottom: 0;
   }
-  #vantagens-de-ser.carousel .carousel-item {
+  .lp-enfermagem #vantagens-de-ser.carousel .carousel-item {
     min-height: 310px;
   }
-  #vantagens-de-ser.carousel .carousel-indicators {
+  .lp-enfermagem #vantagens-de-ser.carousel .carousel-indicators {
     bottom: -90px;
   }
-  #vantagens-de-ser.carousel .carousel-indicators li {
+  .lp-enfermagem #vantagens-de-ser.carousel .carousel-indicators li {
     background: transparent;
   }
-  #vantagens-de-ser.carousel .carousel-indicators li.active {
+  .lp-enfermagem #vantagens-de-ser.carousel .carousel-indicators li.active {
     background: #57585a;
   }
-  #sua-carreira.carousel .carousel-item {
+  .lp-enfermagem #sua-carreira.carousel .carousel-item {
     min-height: 450px;
   }
 }
@@ -1727,7 +1758,7 @@ ol.carousel-indicators li:nth-child(2) {
 
 /* vem do CRO */
 
-body header.anhanguera_ {
+body .lp-enfermagem header.anhanguera_ {
   background: #f2f2f2;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
   z-index: 999;
@@ -1737,54 +1768,54 @@ body header.anhanguera_ {
   right: 0;
 }
 
-body .anhanguera_ .first-level-menu-container,
-body .anhanguera_ .second-menu {
+body .lp-enfermagem .anhanguera_ .first-level-menu-container,
+body .lp-enfermagem .anhanguera_ .second-menu {
   background: transparent !important;
 }
 
-ul.acessibility-list {
+.lp-enfermagem ul.acessibility-list {
   padding: 0;
 }
 
-ul.acessibility-list li a,
-ul.acessibility-list li i {
+.lp-enfermagem ul.acessibility-list li a,
+.lp-enfermagem ul.acessibility-list li i {
   color: #4f4f4f;
   font-size: 13px;
 }
 
-ul.acessibility-list li p,
-ul.acessibility-list li i {
+.lp-enfermagem ul.acessibility-list li p,
+.lp-enfermagem ul.acessibility-list li i {
   padding: 0 6px;
 }
 
-ul.acessibility-list li:after {
+.lp-enfermagem ul.acessibility-list li:after {
   display: none;
 }
 
-li.second-menu__ul-li > a {
+.lp-enfermagem li.second-menu__ul-li > a {
   padding: 30px 10px;
   font-size: 13px;
 }
 
-ul.acessibility-list li.ligamos {
+.lp-enfermagem ul.acessibility-list li.ligamos {
   display: none !important;
 }
 
-ul.restrictArea-list li.ligamos {
+.lp-enfermagem ul.restrictArea-list li.ligamos {
   display: none !important;
 }
 
-ul.acessibility-list {
+.lp-enfermagem ul.acessibility-list {
   width: auto;
 }
 
-nav.second-menu__nav {
+.lp-enfermagem nav.second-menu__nav {
   display: flex;
   flex-direction: row-reverse;
   height: auto;
 }
 
-.btn-header-inscreva-se {
+.lp-enfermagem .btn-header-inscreva-se {
   background: #f47921;
   display: inline-block;
   color: white;
@@ -1800,7 +1831,7 @@ nav.second-menu__nav {
   max-width: 200px;
 }
 
-.lnk-header-acompanhe {
+.lp-enfermagem .lnk-header-acompanhe {
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   font-size: 11px;
@@ -1810,14 +1841,14 @@ nav.second-menu__nav {
   margin-right: 20px;
 }
 
-ul.second-menu__ul {
+.lp-enfermagem ul.second-menu__ul {
   top: 100%;
   margin: 0;
   background: #f2f2f2;
   padding-top: 0;
 }
 
-.second-level {
+.lp-enfermagem .second-level {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1825,16 +1856,16 @@ ul.second-menu__ul {
   border-top: 1px solid #bdbdbd;
 }
 
-#main-container {
+.lp-enfermagem #main-container {
   margin-top: 90px;
   overflow: hidden;
 }
 
-li.second-menu__ul-li > a {
+.lp-enfermagem li.second-menu__ul-li > a {
   padding: 18px 10px;
 }
 
-ul.second-menu__ul-dropdown {
+.lp-enfermagem ul.second-menu__ul-dropdown {
   top: 160px;
 }
 
@@ -1843,11 +1874,11 @@ ul.second-menu__ul-dropdown {
     margin-top: 118px;
   } */
 
-  li.second-menu__ul-li > a {
+  .lp-enfermagem li.second-menu__ul-li > a {
     padding: 30px 10px;
   }
 
-  nav.second-menu__nav {
+  .lp-enfermagem nav.second-menu__nav {
     max-width: 90%;
     align-items: center;
     display: flex;
@@ -1856,49 +1887,49 @@ ul.second-menu__ul-dropdown {
     padding: 0;
   }
 
-  ul.restrictArea-list li {
+  .lp-enfermagem ul.restrictArea-list li {
     display: block !important;
     margin: 0 0 0 30px;
   }
 
-  ul.acessibility-list .acessibility-item-text {
+  .lp-enfermagem ul.acessibility-list .acessibility-item-text {
     display: none;
   }
 
-  ul.restrictArea-list li a {
+  .lp-enfermagem ul.restrictArea-list li a {
     color: #000;
     text-transform: lowercase;
     transition: color 0.3s ease;
   }
 
-  ul.restrictArea-list li a:hover,
-  ul.restrictArea-list li.restrictArea-item:last-of-type a {
+  .lp-enfermagem ul.restrictArea-list li a:hover,
+  .lp-enfermagem ul.restrictArea-list li.restrictArea-item:last-of-type a {
     color: #f15921;
   }
 
-  ul.restrictArea-list li.restrictArea-item:last-of-type a p {
+  .lp-enfermagem ul.restrictArea-list li.restrictArea-item:last-of-type a p {
     font-weight: 700;
   }
 
-  ul.restrictArea-list li a p {
+  .lp-enfermagem ul.restrictArea-list li a p {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 14px;
   }
 
-  ul.restrictArea-list li a p:first-letter {
+  .lp-enfermagem ul.restrictArea-list li a p:first-letter {
     text-transform: uppercase;
   }
 
-  ul.restrictArea-list li a i {
+  .lp-enfermagem ul.restrictArea-list li a i {
     display: none;
   }
 
-  div.login {
+  .lp-enfermagem div.login {
     display: none;
   }
 
-  .btn-header-inscreva-se {
+  .lp-enfermagem .btn-header-inscreva-se {
     padding: 10px 30px;
     font-size: 14px;
   }
@@ -1909,25 +1940,25 @@ ul.second-menu__ul-dropdown {
     margin-top: 137px;
   } */
 
-  body .first-level-menu-container > .main-grid {
+  body .lp-enfermagem .first-level-menu-container > .main-grid {
     border-bottom: 1px solid #bdbdbd;
     padding: 10px 0 7px;
   }
 
-  nav.restrictArea-nav {
+  .lp-enfermagem nav.restrictArea-nav {
     left: auto;
   }
 
-  li.second-menu__ul-li > a:after {
+  .lp-enfermagem li.second-menu__ul-li > a:after {
     display: none;
   }
 
-  li.second-menu__ul-li > a {
+  .lp-enfermagem li.second-menu__ul-li > a {
     padding: 30px 25px;
     font-size: 14px;
   }
 
-  .btn-header-inscreva-se {
+  .lp-enfermagem .btn-header-inscreva-se {
     display: block;
     padding: 10px 45px;
     font-size: 14px;

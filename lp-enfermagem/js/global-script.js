@@ -87,7 +87,7 @@ var lp_enfermagem = {
 
   init: function () {
     var parser = new DOMParser();
-    var htmlContent = `<main id="main-container" class="lp-enfermagem" role="main">
+    var htmlContent = `<main id="main-container" role="main">
       <section id="itemUm">
         <div class="container-fluid bg-itemUm itemUm">
           <div class="container">
@@ -175,14 +175,10 @@ var lp_enfermagem = {
                       </div>
                     </div>
                   </div>
-
                 </div>
-
               </div>
-
             </div>
           </div>
-
         </div>
       </section>
 
@@ -256,7 +252,6 @@ var lp_enfermagem = {
               </div>
 
               <div class="row justify-content-center mb-5">
-
                 <div class="col col-lg-4">
                   <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5">
                     <div class="container-fluid">
@@ -282,12 +277,9 @@ var lp_enfermagem = {
                     </div>
                   </div>
                 </div>
-
               </div>
-
             </div>
           </div>
-
         </div>
       </section>
 
@@ -381,7 +373,6 @@ var lp_enfermagem = {
                             </p>
                           </div>
                         </div>
-
                       </div>
 
                       <div class="carousel-item col col-lg-3 mb-0">
@@ -445,12 +436,9 @@ var lp_enfermagem = {
         <div class="bg-divider">&nbsp;</div>
 
         <div class="container-fluid itemCinco">
-
           <div class="container">
             <div class="container mt-5">
-
               <div class="row">
-
                 <div class="col-sm mb-4">
                   <h2 class="text-white section-title">A quem se destina o curso de <span>Enfermagem</span></h2>
                   <p class="text-white section-paragraph">A <strong>graduação em Enfermagem</strong> é uma excelente opção
@@ -466,7 +454,6 @@ var lp_enfermagem = {
                     auxiliar de Enfermagem e deseja uma formação mais completa para evoluir profissionalmente. O único e
                     principal critério para iniciar uma formação de nível superior é ter concluído todo o ciclo da
                     educação básica.</p>
-
                 </div>
 
                 <div class="col-sm align-self-center d-md-block d-xl-block">
@@ -1053,6 +1040,7 @@ var lp_enfermagem = {
     var doc = parser.parseFromString(htmlContent, "text/html");
 
     document.querySelector("#main-container").innerHTML = "";
+    document.querySelector("body").classList.add("lp-enfermagem");
 
     for (var elem of doc.body.childNodes) {
       document.querySelector("#main-container").appendChild(elem);
