@@ -87,7 +87,7 @@ var lp_enfermagem = {
 
   init: function () {
     var parser = new DOMParser();
-    var htmlContent = `<main id="main-container" role="main">
+    var htmlContent = `<main id="main-container" class="lp-enfermagem" role="main">
       <section id="itemUm">
         <div class="container-fluid bg-itemUm itemUm">
           <div class="container">
@@ -1047,13 +1047,6 @@ var lp_enfermagem = {
             </div>
           </div>
         </div>
-      </section>
-
-      <section id="footer">
-        <footer class="container">
-          <div class="container px-0">
-          </div>
-        </footer>
       </section>
     </main>`;
 
