@@ -1792,7 +1792,7 @@ body.body-curso div #main-container.lp-enfermagem .bg-laranja2 {
 
 /* vem do CRO */
 
-body .lp-enfermagem header.anhanguera_ {
+body header.anhanguera_ {
   background: #f2f2f2;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
   z-index: 999;
@@ -1802,54 +1802,54 @@ body .lp-enfermagem header.anhanguera_ {
   right: 0;
 }
 
-body .lp-enfermagem .anhanguera_ .first-level-menu-container,
-body .lp-enfermagem .anhanguera_ .second-menu {
+body .anhanguera_ .first-level-menu-container,
+body .anhanguera_ .second-menu {
   background: transparent !important;
 }
 
-.lp-enfermagem ul.acessibility-list {
+ul.acessibility-list {
   padding: 0;
 }
 
-.lp-enfermagem ul.acessibility-list li a,
-.lp-enfermagem ul.acessibility-list li i {
+ul.acessibility-list li a,
+ul.acessibility-list li i {
   color: #4f4f4f;
   font-size: 13px;
 }
 
-.lp-enfermagem ul.acessibility-list li p,
-.lp-enfermagem ul.acessibility-list li i {
+ul.acessibility-list li p,
+ul.acessibility-list li i {
   padding: 0 6px;
 }
 
-.lp-enfermagem ul.acessibility-list li:after {
+ul.acessibility-list li:after {
   display: none;
 }
 
-.lp-enfermagem li.second-menu__ul-li > a {
+li.second-menu__ul-li > a {
   padding: 30px 10px;
   font-size: 13px;
 }
 
-.lp-enfermagem ul.acessibility-list li.ligamos {
+ul.acessibility-list li.ligamos {
   display: none !important;
 }
 
-.lp-enfermagem ul.restrictArea-list li.ligamos {
+ul.restrictArea-list li.ligamos {
   display: none !important;
 }
 
-.lp-enfermagem ul.acessibility-list {
+ul.acessibility-list {
   width: auto;
 }
 
-.lp-enfermagem nav.second-menu__nav {
+nav.second-menu__nav {
   display: flex;
   flex-direction: row-reverse;
   height: auto;
 }
 
-.lp-enfermagem .btn-header-inscreva-se {
+.btn-header-inscreva-se {
   background: #f47921;
   display: inline-block;
   color: white;
@@ -1865,7 +1865,7 @@ body .lp-enfermagem .anhanguera_ .second-menu {
   max-width: 200px;
 }
 
-.lp-enfermagem .lnk-header-acompanhe {
+.lnk-header-acompanhe {
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   font-size: 11px;
@@ -1875,14 +1875,14 @@ body .lp-enfermagem .anhanguera_ .second-menu {
   margin-right: 20px;
 }
 
-.lp-enfermagem ul.second-menu__ul {
+ul.second-menu__ul {
   top: 100%;
   margin: 0;
   background: #f2f2f2;
   padding-top: 0;
 }
 
-.lp-enfermagem .second-level {
+.second-level {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1890,29 +1890,25 @@ body .lp-enfermagem .anhanguera_ .second-menu {
   border-top: 1px solid #bdbdbd;
 }
 
-.lp-enfermagem #main-container {
+#main-container.lp-enfermagem {
   margin-top: 90px;
   overflow: hidden;
 }
 
-.lp-enfermagem li.second-menu__ul-li > a {
+li.second-menu__ul-li > a {
   padding: 18px 10px;
 }
 
-.lp-enfermagem ul.second-menu__ul-dropdown {
+ul.second-menu__ul-dropdown {
   top: 160px;
 }
 
 @media (min-width: 993px) {
-  /* #main-container {
-    margin-top: 118px;
-  } */
-
-  .lp-enfermagem li.second-menu__ul-li > a {
+  li.second-menu__ul-li > a {
     padding: 30px 10px;
   }
 
-  .lp-enfermagem nav.second-menu__nav {
+  nav.second-menu__nav {
     max-width: 90%;
     align-items: center;
     display: flex;
@@ -1921,78 +1917,74 @@ body .lp-enfermagem .anhanguera_ .second-menu {
     padding: 0;
   }
 
-  .lp-enfermagem ul.restrictArea-list li {
+  ul.restrictArea-list li {
     display: block !important;
     margin: 0 0 0 30px;
   }
 
-  .lp-enfermagem ul.acessibility-list .acessibility-item-text {
+  ul.acessibility-list .acessibility-item-text {
     display: none;
   }
 
-  .lp-enfermagem ul.restrictArea-list li a {
+  ul.restrictArea-list li a {
     color: #000;
     text-transform: lowercase;
     transition: color 0.3s ease;
   }
 
-  .lp-enfermagem ul.restrictArea-list li a:hover,
-  .lp-enfermagem ul.restrictArea-list li.restrictArea-item:last-of-type a {
+  ul.restrictArea-list li a:hover,
+  ul.restrictArea-list li.restrictArea-item:last-of-type a {
     color: #f15921;
   }
 
-  .lp-enfermagem ul.restrictArea-list li.restrictArea-item:last-of-type a p {
+  ul.restrictArea-list li.restrictArea-item:last-of-type a p {
     font-weight: 700;
   }
 
-  .lp-enfermagem ul.restrictArea-list li a p {
+  ul.restrictArea-list li a p {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 14px;
   }
 
-  .lp-enfermagem ul.restrictArea-list li a p:first-letter {
+  ul.restrictArea-list li a p:first-letter {
     text-transform: uppercase;
   }
 
-  .lp-enfermagem ul.restrictArea-list li a i {
+  ul.restrictArea-list li a i {
     display: none;
   }
 
-  .lp-enfermagem div.login {
+  div.login {
     display: none;
   }
 
-  .lp-enfermagem .btn-header-inscreva-se {
+  .btn-header-inscreva-se {
     padding: 10px 30px;
     font-size: 14px;
   }
 }
 
 @media (min-width: 1205px) {
-  /* #main-container {
-    margin-top: 137px;
-  } */
-
-  body .lp-enfermagem .first-level-menu-container > .main-grid {
+  body .first-level-menu-container > .main-grid {
     border-bottom: 1px solid #bdbdbd;
     padding: 10px 0 7px;
   }
 
-  .lp-enfermagem nav.restrictArea-nav {
+  nav.restrictArea-nav {
     left: auto;
   }
 
-  .lp-enfermagem li.second-menu__ul-li > a:after {
+  li.second-menu__ul-li > a:after {
     display: none;
   }
 
-  .lp-enfermagem li.second-menu__ul-li > a {
+  li.second-menu__ul-li > a {
     padding: 30px 25px;
     font-size: 14px;
   }
 
-  .lp-enfermagem .btn-header-inscreva-se {
+  .btn-header-inscreva-se {
     display: block;
     padding: 10px 45px;
     font-size: 14px;
