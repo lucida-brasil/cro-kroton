@@ -1,6 +1,6 @@
 var lp_enfermagem = {
   openScripts: function () {
-    var body = document.querySelector("body");
+    var body = document.body;
 
     // jquery
     var script = document.createElement("script");
@@ -44,7 +44,7 @@ var lp_enfermagem = {
   },
 
   openHead: function () {
-    var head = document.querySelector("head");
+    var head = document.head;
 
     var styles = document.createElement("link");
     styles.setAttribute(
