@@ -1048,7 +1048,9 @@ var lp_enfermagem = {
 };
 
 (function () {
-  lp_enfermagem.openHead();
-  lp_enfermagem.openScripts();
-  lp_enfermagem.init();
+  setTimeout(function () {
+    lp_enfermagem.openHead();
+    lp_enfermagem.openScripts();
+    lp_enfermagem.init();
+  }, 1500);
 })();
