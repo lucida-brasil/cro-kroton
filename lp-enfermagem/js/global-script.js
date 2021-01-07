@@ -1032,7 +1032,7 @@ var lp_enfermagem = {
     var script = document.getElementById("__jquery");
     console.log("JQUERY", script);
 
-    script.onload = function () {
+    script?.onload = function () {
       document.addEventListener("DOMContentLoaded", function (event) {
         // setTimeout(() => {
         lp_enfermagem.openScripts();
@@ -1047,7 +1047,6 @@ var lp_enfermagem = {
     var promise = new Promise(function (resolve, reject) {
       try {
         if (typeof jQuery == "undefined") {
-          console.log("JQUERY CAGADO");
           var jQuery_script = document.createElement("script");
           jQuery_script.src =
             "https://code.jquery.com/jquery-3.5.1.slim.min.js";
