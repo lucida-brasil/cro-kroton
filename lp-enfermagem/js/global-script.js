@@ -1,12 +1,13 @@
 var lp_enfermagem = {
   openScripts: function () {
     // jquery
-    // var script = document.createElement("script");
-    // script.src =
-    //   "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/jquery-slim.min.js"
-    // body.appendChild(script);
-    console.log("OPEN SCRIPTS");
     var script = document.createElement("script");
+    script.src =
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/jquery-slim.min.js";
+    document.body.appendChild(script);
+
+    console.log("OPEN SCRIPTS");
+    script = document.createElement("script");
     script.src =
       "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/bootstrap.min.js";
     document.body.appendChild(script);
@@ -20,8 +21,11 @@ var lp_enfermagem = {
     script = document.createElement("script");
     script.src =
       "https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js";
+    script.defer = "defer";
     document.body.appendChild(script);
+  },
 
+  blaScripts: function () {
     // scripts
     script = document.createElement("script");
     script.src =
@@ -1027,42 +1031,19 @@ var lp_enfermagem = {
 };
 
 (function () {
-  initScript().then(function (v) {
-    console.log("RESOLVE:", v);
-    var script = document.getElementById("__jquery");
-    console.log("JQUERY", script);
+  lp_enfermagem.openScripts();
+  lp_enfermagem.openHead();
+  // lp_enfermagem.init();
 
-    script?.onload = function () {
-      document.addEventListener("DOMContentLoaded", function (event) {
-        // setTimeout(() => {
-        lp_enfermagem.openScripts();
-        lp_enfermagem.openHead();
-        lp_enfermagem.init();
-        // }, 3000);
-      });
-    };
-  });
-
-  function initScript() {
-    var promise = new Promise(function (resolve, reject) {
-      try {
-        if (typeof jQuery == "undefined") {
-          var jQuery_script = document.createElement("script");
-          jQuery_script.src =
-            "https://code.jquery.com/jquery-3.5.1.slim.min.js";
-          jQuery_script.integrity =
-            "sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=";
-          jQuery_script.crossOrigin = "anonymous";
-          jQuery_script.type = "text/javascript";
-          jQuery_script.id = "__jquery";
-          document.body.appendChild(jQuery_script);
-          resolve("jQuery added successfully.");
-        }
-        resolve("jQuery exists.");
-      } catch (error) {
-        reject("Something went wrong on initScript() : ", error);
-      }
-    });
-    return promise;
-  }
+  let timer = setInterval(() => {
+    console.log(typeof window.jQuery);
+    if (typeof window.jQuery === "function") {
+      lp_enfermagem.blaScripts();
+      lp_enfermagem.init();
+      clearInterval(timer);
+      console.log("iei");
+    } else {
+      console.log("fué");
+    }
+  }, 300);
 })();
