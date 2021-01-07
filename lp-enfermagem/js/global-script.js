@@ -1052,5 +1052,5 @@ var lp_enfermagem = {
     lp_enfermagem.openHead();
     lp_enfermagem.openScripts();
     lp_enfermagem.init();
-  }, 2000);
+  }, 3000);
 })();
