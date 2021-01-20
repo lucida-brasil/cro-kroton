@@ -21,7 +21,6 @@ var lp_enfermagem = {
     script = document.createElement("script");
     script.src =
       "https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js";
-    script.defer = "defer";
     document.body.appendChild(script);
   },
 
@@ -31,6 +30,7 @@ var lp_enfermagem = {
     script.src =
       "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/scripts.js?dev=1";
     script.async = true;
+    script.defer = "defer";
     document.body.appendChild(script);
   },
 

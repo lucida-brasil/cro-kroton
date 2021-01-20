@@ -67,6 +67,10 @@ body.body-curso #main-container section {
     right top no-repeat;
 }
 
+.first-level-menu-container p {
+  margin: 0;
+}
+
 .lp-enfermagem .long-arrow-alt-right {
   display: inline-block;
   width: 26px;
@@ -1831,6 +1835,11 @@ li.second-menu__ul-li > a {
 
 ul.acessibility-list li.ligamos {
   display: none !important;
+}
+
+ul.restrictArea-list {
+  display: flex;
+  margin: 0;
 }
 
 ul.restrictArea-list li.ligamos {
