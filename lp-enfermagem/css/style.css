@@ -1975,8 +1975,6 @@ ul.second-menu__ul-dropdown {
 @media (min-width: 1205px) {
   body .first-level-menu-container > .main-grid {
     border-bottom: 1px solid #bdbdbd;
-    height: 32px;
-    margin-top: 12px;
     padding-top: 16px;
   }
 
