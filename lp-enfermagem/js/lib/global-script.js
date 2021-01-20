@@ -50,7 +50,7 @@ var lp_enfermagem = {
 
     styles = document.createElement("link");
     styles.href =
-      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/css/style.css?cb=21-01-20a";
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/css/style.min.css";
     styles.rel = "stylesheet";
     document.head.appendChild(styles);
 
