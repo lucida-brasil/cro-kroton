@@ -6,7 +6,7 @@ var lp_enfermagem = {
       "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/jquery-slim.min.js";
     document.body.appendChild(script);
 
-    console.log("OPEN SCRIPTS");
+    // console.log("OPEN SCRIPTS");
     script = document.createElement("script");
     script.src =
       "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/bootstrap.min.js";
@@ -35,7 +35,7 @@ var lp_enfermagem = {
   },
 
   openHead: function () {
-    console.log("OPEN HEAD");
+    // console.log("OPEN HEAD");
     var styles = document.createElement("link");
     styles.href =
       "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap";
@@ -50,7 +50,7 @@ var lp_enfermagem = {
 
     styles = document.createElement("link");
     styles.href =
-      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/css/style.css?dev=9";
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/css/style.css?cb=21-01-20";
     styles.rel = "stylesheet";
     document.head.appendChild(styles);
 
@@ -68,7 +68,7 @@ var lp_enfermagem = {
   },
 
   init: function () {
-    console.log("INIT");
+    // console.log("INIT");
     var parser = new DOMParser();
     var htmlContent = `<section id="itemUm">
         <div class="container-fluid bg-itemUm itemUm">
@@ -1036,14 +1036,14 @@ var lp_enfermagem = {
   // lp_enfermagem.init();
 
   let timer = setInterval(() => {
-    console.log(typeof window.jQuery);
+    // console.log(typeof window.jQuery);
     if (typeof window.jQuery === "function") {
       lp_enfermagem.blaScripts();
       lp_enfermagem.init();
       clearInterval(timer);
-      console.log("iei");
+      // console.log("iei");
     } else {
-      console.log("fué");
+      // console.log("fué");
     }
   }, 300);
 })();
