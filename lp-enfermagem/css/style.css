@@ -1961,7 +1961,7 @@ ul.second-menu__ul {
 }
 
 #main-container.lp-enfermagem {
-  margin-top: 160px;
+  margin-top: 90px;
   overflow: hidden;
 }
 
@@ -1986,6 +1986,9 @@ ul.second-menu__ul-dropdown {
 }
 
 @media (min-width: 993px) {
+  #main-container.lp-enfermagem {
+    margin-top: 160px;
+  }
   #itemSeteMobile {
     display: none;
   }
