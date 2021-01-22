@@ -1,6 +1,6 @@
 define([
   "jquery",
-  "js/lib/popper.min",
+  "popper",
   "bootstrap",
   "select2",
   "js/lib/global-scripts-01-21",
