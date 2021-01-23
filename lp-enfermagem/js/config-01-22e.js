@@ -1,5 +1,6 @@
 var require = {
-  baseUrl: "/",
+  baseUrl:
+    "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem",
   paths: {
     main: "js/app-01-22d",
     app: "app",
