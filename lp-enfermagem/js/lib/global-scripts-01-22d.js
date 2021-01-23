@@ -50,7 +50,8 @@ var lp_enfermagem = {
 
     styles = document.createElement("link");
     styles.href =
-      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/css/style-01-21.css";
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/css/style-01-22.css";
+    // styles.href = "/css/style-01-21.css";
     styles.rel = "stylesheet";
     document.head.appendChild(styles);
 
@@ -767,74 +768,67 @@ var lp_enfermagem = {
                   de <span>Enfermagem</span></h2>
               </div>
 
-              <div class="row mb-4" style="width:100%;" id="atuacaoProfissionalTest">
-                <div class="accordion" id="atuacaoProfissional" style="width:100%;">
-
-                  <div class="card headingOne">
-
-                    <div class="card-header rounded" id="headingOne" type="button" data-toggle="collapse"
-                      data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      <h6 class="mb-0 text-laranja"><strong>Nível Médio</strong></h6>
+              <div class="row gavetas">
+                <div class="gaveta">
+                  <div class="gaveta-titulo">
+                    <h2>Nível Médio</h2>
+                    <div class="gaveta-icon">
+                      <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-nivel-medio.svg">
                     </div>
-
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                      data-parent="#atuacaoProfissional">
-                      <p class="card-body"><strong>Auxiliar de Enfermagem</strong><br>
-                        <span class="small">Tem interesse na área? Com o <strong>diploma de ensino médio</strong> você já
-                          pode cursar a formação em Auxiliar de enfermagem.</span>
-                      </p>
-                    </div>
+                    <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/arrow-down.png" alt="" class="arrow">
                   </div>
-
-                  <div class="card headingTwo">
-                    <div class="card-header rounded" id="headingTwo" type="button" data-toggle="collapse"
-                      data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      <h6 class="mb-0 text-laranja"><strong>Técnico</strong></h6>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                      data-parent="#atuacaoProfissional">
-                      <p class="card-body"><strong>Instrumentador Cirúrgico</strong><br>
-                        <span class="small">Instrumentador cirúrgico é uma opção para quem quer fazer um
-                          <strong>test-drive</strong> antes de seguir uma carreira de técnico em enfermagem ou
-                          enfermeiro.</span>
-                      </p>
-                      <p class="card-body mt-0"><strong>Técnico de Enfermagem</strong><br>
-                        <span class="small">O técnico em enfermagem é uma ótima opção se você quer <strong>formação
-                            rápida</strong> e entrada rápida no mercado de trabalho.</span>
-                      </p>
-                    </div>
+                  <div class="gaveta-texto">
+                    <h2>Auxiliar de <br>Enfermagem</h2>
+                    <p>Tem interesse na área? Com o diploma de ensino médio você já pode cursar a formação em Auxiliar de
+                      enfermagem.</p>
                   </div>
-
-                  <div class="card headingThree">
-                    <div class="card-header rounded" id="headingThree" type="button" data-toggle="collapse"
-                      data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      <h6 class="mb-0 text-laranja"><strong>Bacharelado</strong></h6>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                      data-parent="#atuacaoProfissional">
-                      <p class="card-body"><strong>Enfermeiro</strong><br>
-                        <span class="small">O pulo de carreira essencial para sua progressão. O enfermeiro exerce a função
-                          de <strong>liderança e coordenação</strong> de equipes de técnicos. </span>
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="card headingFour">
-                    <div class="card-header rounded" id="headingFour" type="button" data-toggle="collapse"
-                      data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      <h6 class="mb-0 text-laranja"><strong>Especialização</strong></h6>
-                    </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                      data-parent="#atuacaoProfissional">
-                      <p class="card-body"><strong>Especialista</strong><br>
-                        <span class="small">Após um período na enfermagem generalista, a <strong>residência</strong> ou
-                          uma <strong>pós-graduação</strong> são opções de progressão na carreira.</span>
-                      </p>
-                    </div>
-                  </div>
-
                 </div>
-              </div><!-- End row -->
+                <div class="gaveta">
+                  <div class="gaveta-titulo">
+                    <h2>Técnico</h2>
+                    <div class="gaveta-icon">
+                      <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-tecnico.svg">
+                    </div>
+                    <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/arrow-down.png" alt="" class="arrow">
+                  </div>
+                  <div class="gaveta-texto">
+                    <h2>Instrumentador Cirúrgico</h2>
+                    <p>Instrumentador cirúrgico é uma opção para quem quer fazer um test-drive antes de seguir uma
+                      carreira de técnico em enfermagem ou enfermeiro.</p>
+                    <h2>Técnico de Enfermagem</h2>
+                    <p>O técnico em enfermagem é uma ótima opção se você quer formação rápida e entrada rápida no mercado
+                      de trabalho.</p>
+                  </div>
+                </div>
+                <div class="gaveta">
+                  <div class="gaveta-titulo">
+                    <h2>Bacharelado</h2>
+                    <div class="gaveta-icon">
+                      <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-bacharelado.svg">
+                    </div>
+                    <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/arrow-down.png" alt="" class="arrow">
+                  </div>
+                  <div class="gaveta-texto">
+                    <h2>Enfermeiro</h2>
+                    <p>O pulo de carreira essencial para sua progressão. O enfermeiro exerce a função de liderança e
+                      coordenação de equipes de técnicos.</p>
+                  </div>
+                </div>
+                <div class="gaveta">
+                  <div class="gaveta-titulo">
+                    <h2>Especialização</h2>
+                    <div class="gaveta-icon">
+                      <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-especializacao.svg">
+                    </div>
+                    <img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/arrow-down.png" alt="" class="arrow">
+                  </div>
+                  <div class="gaveta-texto">
+                    <h2>Especialista</h2>
+                    <p>Após um período na enfermagem generalista, a residência ou uma pós-graduação são opções de
+                      progressão na carreira.</p>
+                  </div>
+                </div>
+              </div>
 
               <div class="row mb-5 justify-content-center">
                 <div class="coren-container-mobile text-center p-4 border rounded">
@@ -1028,6 +1022,18 @@ var lp_enfermagem = {
       document.querySelector("#main-container").appendChild(elem);
     }
   },
+
+  bind: function () {
+    var gavetas = $(".gavetas");
+    gavetas.find(".gaveta").each(function () {
+      $(this).on("click", function () {
+        var $gaveta = $(this);
+        $(this)
+          .find(".gaveta-texto")
+          .slideToggle(400, function () {});
+      });
+    });
+  },
 };
 
 (function () {
@@ -1040,8 +1046,8 @@ var lp_enfermagem = {
     if (typeof window.jQuery === "function") {
       lp_enfermagem.blaScripts();
       lp_enfermagem.init();
+      lp_enfermagem.bind();
       clearInterval(timer);
-      // console.log("iei");
     } else {
       // console.log("fué");
     }

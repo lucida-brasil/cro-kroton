@@ -1985,9 +1985,103 @@ ul.second-menu__ul-dropdown {
   font-size: 18px;
 }
 
+#itemSete {
+  display: none;
+}
+
+.gaveta {
+  margin: 0 17px 0 40px;
+  border-left: 2px solid #bdbdbd;
+  padding: 0 0 53px 14px;
+  width: 100%;
+}
+
+.gaveta .gaveta-titulo {
+  border: 2px solid #bdbdbd;
+  border-radius: 8px;
+  padding: 15px 32px 13px;
+  position: relative;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  background: #fff;
+}
+
+.gaveta .gaveta-texto {
+  padding: 24px 32px 0;
+  display: none;
+}
+
+.gaveta:last-of-type .gaveta-texto {
+  padding-bottom: 20px;
+}
+
+.gaveta .gaveta-texto p {
+  margin: 10px 0 0;
+}
+
+.gaveta .gaveta-texto p + h2 {
+  margin-top: 25px;
+}
+
+.gaveta h2 {
+  font-size: 18px;
+  color: #f47921;
+  line-height: 1.4;
+  margin: 0;
+  font-weight: 700;
+}
+
+.gaveta-icon {
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  transform: translate(0, -50%);
+  width: 46px;
+  height: 46px;
+  border: 2px solid#f47921;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.gaveta-icon img {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.gaveta .arrow {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.gaveta:last-child {
+  padding-bottom: 0;
+  margin-bottom: 50px;
+}
+
+.gaveta.aberta .gaveta-texto {
+  display: block;
+}
+
+.gaveta.aberta {
+  padding-bottom: 0;
+}
+
+.coren-container-mobile {
+  background: #f2f2f2;
+  border-radius: 8px;
+  margin: 0 17px;
+}
+
 @media (min-width: 993px) {
   #main-container.lp-enfermagem {
     margin-top: 160px;
+  }
+  #itemSete {
+    display: block;
   }
   #itemSeteMobile {
     display: none;
