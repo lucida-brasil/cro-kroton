@@ -328,15 +328,15 @@ var headerTeste = {
         _this.sendEvent("anhanguera:teste", "header", "clique:inscreva-se");
       });
 
-    document
-      .querySelector(".lnk-header-acompanhe")
-      .addEventListener("click", function () {
-        _this.sendEvent(
-          "anhanguera:teste",
-          "header",
-          "clique:acompanhe-inscricao"
-        );
-      });
+    // document
+    //   .querySelector(".lnk-header-acompanhe")
+    //   .addEventListener("click", function () {
+    //     _this.sendEvent(
+    //       "anhanguera:teste",
+    //       "header",
+    //       "clique:acompanhe-inscricao"
+    //     );
+    //   });
   },
   mobile: function () {
     var acc = document.querySelector(
