@@ -1874,6 +1874,7 @@ body .anhanguera_ .second-menu {
 
 ul.acessibility-list {
   padding: 0;
+  margin: 0;
 }
 
 ul.acessibility-list li a,
@@ -1894,6 +1895,7 @@ ul.acessibility-list li:after {
 li.second-menu__ul-li > a {
   padding: 30px 10px;
   font-size: 13px;
+  line-height: normal;
 }
 
 ul.acessibility-list li.ligamos {
@@ -2076,6 +2078,14 @@ ul.second-menu__ul-dropdown {
   margin: 0 17px;
 }
 
+.body-curso figure {
+  margin: 0;
+}
+
+.first-level-menu-container {
+  padding: 0;
+}
+
 @media (min-width: 993px) {
   #main-container.lp-enfermagem {
     margin-top: 160px;
@@ -2150,7 +2160,9 @@ ul.second-menu__ul-dropdown {
 @media (min-width: 1205px) {
   body .first-level-menu-container > .main-grid {
     border-bottom: 1px solid #bdbdbd;
-    padding-top: 16px;
+    padding: 10px 0 7px;
+    max-width: 90%;
+    align-items: center;
   }
 
   nav.restrictArea-nav {

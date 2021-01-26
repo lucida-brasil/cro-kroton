@@ -322,21 +322,21 @@ var headerTeste = {
   },
   bind: function () {
     var _this = this;
-    // document
-    //   .querySelector(".btn-header-inscreva-se")
-    //   .addEventListener("click", function () {
-    //     _this.sendEvent("anhanguera:teste", "header", "clique:inscreva-se");
-    //   });
+    document
+      .querySelector(".btn-header-inscreva-se")
+      .addEventListener("click", function () {
+        _this.sendEvent("anhanguera:teste", "header", "clique:inscreva-se");
+      });
 
-    // document
-    //   .querySelector(".lnk-header-acompanhe")
-    //   .addEventListener("click", function () {
-    //     _this.sendEvent(
-    //       "anhanguera:teste",
-    //       "header",
-    //       "clique:acompanhe-inscricao"
-    //     );
-    //   });
+    document
+      .querySelector(".lnk-header-acompanhe")
+      .addEventListener("click", function () {
+        _this.sendEvent(
+          "anhanguera:teste",
+          "header",
+          "clique:acompanhe-inscricao"
+        );
+      });
   },
   mobile: function () {
     var acc = document.querySelector(
@@ -372,5 +372,5 @@ var headerTeste = {
 
 (function () {
   testeEnfermagem.init();
-  // headerTeste.init();
+  headerTeste.init();
 })();
