@@ -28,7 +28,7 @@ var lp_enfermagem = {
     // scripts
     script = document.createElement("script");
     script.src =
-      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/scripts-01-26b.js";
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/scripts-02-01.js";
     script.async = true;
     script.defer = "defer";
     document.body.appendChild(script);
@@ -50,7 +50,7 @@ var lp_enfermagem = {
 
     styles = document.createElement("link");
     styles.href =
-      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/css/style-01-26b.css";
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/css/style-02-01.css";
     // styles.href = "/css/style-01-21.css";
     styles.rel = "stylesheet";
     document.head.appendChild(styles);

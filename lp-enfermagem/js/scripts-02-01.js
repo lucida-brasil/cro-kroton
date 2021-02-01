@@ -289,7 +289,9 @@ var headerTeste = {
   acompanhe: null,
   floaterCont: null,
   init: function () {
-    this.createButton();
+    if (document.querySelectorAll('.btn-header-inscreva-se').length === 0) {
+      this.createButton();
+    }
     if (window.matchMedia("(max-width: 990px)").matches) {
       this.mobile();
       this.insertButton(true);
