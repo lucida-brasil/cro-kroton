@@ -263,9 +263,13 @@ var headerTeste = {
       cont.classList.add('second-level')
       cont.appendChild(this.acompanhe);
       cont.appendChild(this.but);
-      document.querySelector('.anhanguera_ > .second-menu').appendChild(cont);
+      if (document.querySelectorAll('.btn-header-inscreva-se').length === 0) {
+        document.querySelector('.anhanguera_ > .second-menu').appendChild(cont);
+      }
     } else {
-      document.querySelector('#second-menu__nav').appendChild(this.but);
+      if (document.querySelectorAll('.btn-header-inscreva-se').length === 0) {
+        document.querySelector('#second-menu__nav').appendChild(this.but);
+      }
     }
     this.bind();
   },
