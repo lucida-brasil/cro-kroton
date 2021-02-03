@@ -255,7 +255,6 @@ var headerTeste = {
     this.but.classList.add('btn-header-inscreva-se');
     this.but.innerHTML = 'Inscreva-se';
     this.but.setAttribute('href', 'https://www.anhanguera.com/inscricao?origem=header');
-    this.but.setAttribute('target', '_blank');
     this.but.setAttribute('title', 'Clique aqui para inscrever-se agora!');
   },
   insertButton: function(mob = false) {
