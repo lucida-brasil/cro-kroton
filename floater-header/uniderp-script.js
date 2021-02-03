@@ -15,7 +15,7 @@ var floaterTeste = {
     for (var elem of doc.body.childNodes) {
       document.querySelector('body').appendChild(elem);
     }
-    var zap = '<div class="wa-floater-container"><div class="wa-floater-header"><span class="circle"><img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPdJREFUeNpiZMAG+s4rAMl6IFZgwAFYGRgu/C4yLGTBofk8EAsw4AGMzEwXQDQTFrl6Qpr52FkZlAV5NoLYcBeYrXwI0tT/7fffBC5WZnz6HwBx46lw+QMoBgDBeiB2QNL8AYgTgQo34PUK1HYDqL/BgI2ZkUGen32BhRTvQmTFudpcB9ANgLkgAEQoC3IwmEjwgA0AggQoxrAQmwEMPGzMDFbSvIT8zoDLAHtuVmwRwnAAKTwa8RmADUwA+rmQgQBgwiP3kYEIwMRAIWAiNdBwGiDBzYYud4EkA8S5WVFCHxiARBkAjgU7Wb4LSAYcBMUAsWEAEGAAjKcsXIVUUdgAAAAASUVORK5CYII=" alt="Logo fama"></span><div class="txt"><strong>fama</strong><span>Online</span></div></div><div class="wa-floater-messages"><div class="wa-floater-message"><p>Olá!<br>Para prosseguir com o atendimento, vamos precisar de algumas informações:</p></div><div class="wa-floater-fields"><label><span>Qual o seu nome completo?*</span><input type="text" name="nome-completo" id="nome-completo"></label><label><span>Qual o número do seu celular?*</span><input type="text" name="telefone-celular" id="telefone-celular"></label><label><input type="checkbox" name="consentimento" id="consentimento"><span>Eu concordo em receber contato no WhatsApp.</span></label><button>Iniciar Conversa</button></div></div></div>';
+    var zap = '<div class="wa-floater-container"><div class="wa-floater-header"><span class="circle"><img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlBJREFUeNqkU1toE0EUnZ2kGnwUacVSqCgi9cN+VRFUKPj6UCSIhbaU+qigglr8Ej/UYjVgbAUfSEkFH2BKUUER/RLaD/sRNURKMCqK+MBaJAappCTZmbnXs0mIG1pQcOFwZu+5c+/dmbNC/OdjzRQMx9auAx0FNgILge/AMHClY1XkuTvX635ZHEpUMjbZtH8rare4pBqgXQieqgslGtni6+MHG2xHkO4CRNzChu+F3x0azpKVBIQL76++OnUfer8wYv2SgdeyrEDtpbETZKsp0nrkTbIh+GFyeWfGSJExHkDqseTqnonJ2kHoj8jWzXbG3lsqsKjvhZeNmUOarrEyF7D2hONHOnMk+5zuGeMNPHzb4Sdt0qT0ZfBh5FTU9EYX5Auwpm0mp56x1imjVABJx1Co+eJocDRL8mZ/5HTKeYd+HNpd8GNjq5VkTGuhgKIq1uYWRjuAxHrK6aWkzAOsT55tGtlnZz2t2Hgb8UbEBOVUL3g3Guv8NVZ3P61m5rhgERWWNS6YN+GCuyA90SRmeaX4hVvpRvwc9D3gIPR4paTt+QlSZ5pS6NiFLn5MEQGvAM8FhNRqGdiHA56NuAWOguuQH/jUs4FLPmBbveSCsXzF0Lwiz3d5xsaUVUX7fSwzkkG3f7Uuuyz8x4nafIWRfk7fwq5tpTJfpFXILRkpHfJr3MQWfN83fKcowTn1/Fo7YHhgAnmb0wM7ctP+hcyNnbGKXUMei6zzOOls2cCW+IFFwB5s+/zXv9F5fG1D0jCtQUoCRerVnfbYTOm/BRgAP2V/PEnqmI0AAAAASUVORK5CYII=" alt="Logo uniderp"></span><div class="txt"><strong>uniderp</strong><span>Online</span></div></div><div class="wa-floater-messages"><div class="wa-floater-message"><p>Olá!<br>Para prosseguir com o atendimento, vamos precisar de algumas informações:</p></div><div class="wa-floater-fields"><label><span>Qual o seu nome completo?*</span><input type="text" name="nome-completo" id="nome-completo"></label><label><span>Qual o número do seu celular?*</span><input type="text" name="telefone-celular" id="telefone-celular"></label><label><input type="checkbox" name="consentimento" id="consentimento"><span>Eu concordo em receber contato no WhatsApp.</span></label><button>Iniciar Conversa</button></div></div></div>';
     parser = new DOMParser();
     doc = parser.parseFromString(zap, 'text/html');
     for (var elem of doc.body.childNodes) {
@@ -29,10 +29,10 @@ var floaterTeste = {
     var w = document.createElement('div');
     w.className = 'widget-container';
     w.id = 'funil_widget';
-    w.setAttribute('brand', 'FAMA');
+    w.setAttribute('brand', 'UNIDERP');
     w.setAttribute('type', 'Graduação');
     w.setAttribute('color', '#F5821F');
-    w.setAttribute('domaingraduation', 'https://www.faculdadedemacapa.com.br/inscricao');
+    w.setAttribute('domaingraduation', 'https://www.uniderp.com.br/inscricao');
     document.body.appendChild(w);
   },
   bind: function() {
@@ -40,7 +40,7 @@ var floaterTeste = {
     var init = document.querySelector('.floater-container button.floater-init');
 
     init.addEventListener('click', function() {
-      _this.sendEvent('fama:teste', 'floater:inicio', 'clique:botao');
+      _this.sendEvent('uniderp:teste', 'floater:inicio', 'clique:botao');
       if (_this.openedOnce == false) {
         _this.openedOnce = true;
       }
@@ -70,28 +70,28 @@ var floaterTeste = {
 
     var agora = document.querySelector('.floater-container button.floater-inscreva-se');
     agora.addEventListener('click', function() {
-      _this.sendEvent('fama:teste', 'floater:widget-inscreva-se', 'clique:botao');
+      _this.sendEvent('uniderp:teste', 'floater:widget-inscreva-se', 'clique:botao');
       _this.hA();
       _this.hM();
       _this.cS('close');
 
-      window.location.href = 'https://www.faculdadedemacapa.com.br/inscricao?origem=floater';
+      window.location.href = 'https://www.uniderp.com.br/inscricao?origem=floater';
     });
 
     var ctc = document.querySelector('.floater-container button.floater-call-me');
     ctc.addEventListener('click', function() {
-      _this.sendEvent('fama:teste', 'floater:ctc', 'clique:botao');
+      _this.sendEvent('uniderp:teste', 'floater:ctc', 'clique:botao');
       _this.hA();
       _this.hM();
       _this.cS('close');
-      document.querySelector('iframe.callme').src = 'https://bluecore-kroton-ctc.azurewebsites.net/embed/fama';
+      document.querySelector('iframe.callme').src = 'https://bluecore-kroton-ctc.azurewebsites.net/embed/uniderp';
       document.querySelector('iframe.callme').classList.toggle('active');
     });
 
     var call = document.querySelector('.floater-container button.floater-call');
     call.addEventListener('click', function() {
       _this.hA();
-      _this.sendEvent('fama:teste', 'floater:ligar', 'clique:ligar');
+      _this.sendEvent('uniderp:teste', 'floater:ligar', 'clique:ligar');
       _this.hM();
       _this.cS('close');
       window.location.href = 'tel:08008815241';
@@ -99,7 +99,7 @@ var floaterTeste = {
 
     var chatbot = document.querySelector('.floater-container button.floater-chat');
     chatbot.addEventListener('click', function() {
-      _this.sendEvent('fama:teste', 'floater:chatbot', 'clique:botao');
+      _this.sendEvent('uniderp:teste', 'floater:chatbot', 'clique:botao');
       _this.hA();
       _this.hM();
       _this.cS('close');
@@ -108,7 +108,7 @@ var floaterTeste = {
 
     var wap = document.querySelector('.floater-container button.floater-whatsapp');
     wap.addEventListener('click', function() {
-      _this.sendEvent('fama:teste', 'floater:whatsapp', 'clique:botao');
+      _this.sendEvent('uniderp:teste', 'floater:whatsapp', 'clique:botao');
       _this.hA();
       _this.hM();
       _this.cS('close');
@@ -118,13 +118,13 @@ var floaterTeste = {
     var wapfields = document.querySelectorAll('.wa-floater-container input');
     wapfields.forEach(function(el) {
       this.addEventListener('change', function() {
-        _this.sendEvent('fama:teste', 'floater:whatsapp', 'preencheu:' + el.name);
+        _this.sendEvent('uniderp:teste', 'floater:whatsapp', 'preencheu:' + el.name);
       })
     })
 
     var wapsend = document.querySelector('.wa-floater-container button');
     wapsend.addEventListener('click', function() {
-      _this.sendEvent('fama:teste', 'floater:whatsapp', 'clique:iniciar-conversa');
+      _this.sendEvent('uniderp:teste', 'floater:whatsapp', 'clique:iniciar-conversa');
 
       var consent = document.querySelector('.wa-floater-container #consentimento').checked;
       var nome = document.querySelector('.wa-floater-container #nome-completo').value;
@@ -221,7 +221,7 @@ var floaterTeste = {
     var _this = this;
     setTimeout(function() {
       if (_this.openedOnce == false) {
-        _this.sendEvent('fama:teste', 'floater:inicio', 'auto');
+        _this.sendEvent('uniderp:teste', 'floater:inicio', 'auto');
         document.querySelector('.floater-container button.floater-init').click();
       }
     }, 10000);
@@ -254,7 +254,7 @@ var headerTeste = {
     this.but = document.createElement('a');
     this.but.classList.add('btn-header-inscreva-se');
     this.but.innerHTML = 'Inscreva-se';
-    this.but.setAttribute('href', 'https://www.faculdadedemacapa.com.br/inscricao?origem=header');
+    this.but.setAttribute('href', 'https://www.uniderp.com.br/inscricao?origem=header');
     this.but.setAttribute('title', 'Clique aqui para inscrever-se agora!');
   },
   insertButton: function(mob = false) {
@@ -264,7 +264,7 @@ var headerTeste = {
       cont.appendChild(this.acompanhe);
       cont.appendChild(this.but);
       if (document.querySelectorAll('.btn-header-inscreva-se').length === 0) {
-        document.querySelector('.fama_ > .second-menu').appendChild(cont);
+        document.querySelector('.uniderp_ > .second-menu').appendChild(cont);
       }
     } else {
       if (document.querySelectorAll('.btn-header-inscreva-se').length === 0) {
@@ -276,11 +276,11 @@ var headerTeste = {
   bind: function() {
     var _this = this;
     document.querySelector('.btn-header-inscreva-se').addEventListener('click', function() {
-      _this.sendEvent('fama:teste', 'header', 'clique:inscreva-se');
+      _this.sendEvent('uniderp:teste', 'header', 'clique:inscreva-se');
     })
 
     document.querySelector('.lnk-header-acompanhe').addEventListener('click', function() {
-      _this.sendEvent('fama:teste', 'header', 'clique:acompanhe-inscricao');
+      _this.sendEvent('uniderp:teste', 'header', 'clique:acompanhe-inscricao');
     })
   },
   mobile: function() {
@@ -292,7 +292,7 @@ var headerTeste = {
     this.acompanhe = document.createElement('a');
     this.acompanhe.classList.add('lnk-header-acompanhe');
     this.acompanhe.innerHTML = 'Acompanhe sua inscrição';
-    this.acompanhe.setAttribute('href', 'https://www.vestibulares.com.br/fama/area-candidato/login');
+    this.acompanhe.setAttribute('href', 'https://www.vestibulares.com.br/uniderp/area-candidato/login');
     this.acompanhe.setAttribute('title', 'Clique aqui para acompanhar sua inscrição!');
   },
   sendEvent: function(ec, ea, el) {
