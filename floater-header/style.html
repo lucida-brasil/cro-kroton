@@ -105,6 +105,11 @@
     padding: 18px 10px;
   }
 
+  .first-level-menu-container > .main-grid {
+    max-width: 90%;
+    align-items: center;
+  }
+
   @media (min-width: 993px) {
     #main-container {
       margin-top: 118px;
@@ -674,8 +679,14 @@
       display: none;
     }
   }
-  body.highContrast .floater-container * {
+  body.highContrast .floater-container *,
+  body.highContrast .wa-floater-container * {
     color: #F5FF00 !important;
     fill: #F5FF00 !important;
+  }
+  body.highContrast .floater-container input,
+  body.highContrast .wa-floater-container input {
+    background: #fff !important;
+    color: #000 !important;
   }
 </style>

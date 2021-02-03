@@ -289,7 +289,6 @@ var headerTeste = {
     this.acompanhe.classList.add('lnk-header-acompanhe');
     this.acompanhe.innerHTML = 'Acompanhe sua inscrição';
     this.acompanhe.setAttribute('href', 'https://www.vestibulares.com.br/fama/area-candidato/login');
-    this.acompanhe.setAttribute('target', '_blank');
     this.acompanhe.setAttribute('title', 'Clique aqui para acompanhar sua inscrição!');
   },
   sendEvent: function(ec, ea, el) {

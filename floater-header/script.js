@@ -263,9 +263,13 @@ var headerTeste = {
       cont.classList.add('second-level')
       cont.appendChild(this.acompanhe);
       cont.appendChild(this.but);
-      document.querySelector('.anhanguera_ > .second-menu').appendChild(cont);
+      if (document.querySelectorAll('.btn-header-inscreva-se').length === 0) {
+        document.querySelector('.anhanguera_ > .second-menu').appendChild(cont);
+      }
     } else {
-      document.querySelector('#second-menu__nav').appendChild(this.but);
+      if (document.querySelectorAll('.btn-header-inscreva-se').length === 0) {
+        document.querySelector('#second-menu__nav').appendChild(this.but);
+      }
     }
     this.bind();
   },
@@ -289,7 +293,6 @@ var headerTeste = {
     this.acompanhe.classList.add('lnk-header-acompanhe');
     this.acompanhe.innerHTML = 'Acompanhe sua inscrição';
     this.acompanhe.setAttribute('href', 'https://www.vestibulares.com.br/anhanguera/area-candidato/login');
-    this.acompanhe.setAttribute('target', '_blank');
     this.acompanhe.setAttribute('title', 'Clique aqui para acompanhar sua inscrição!');
   },
   sendEvent: function(ec, ea, el) {

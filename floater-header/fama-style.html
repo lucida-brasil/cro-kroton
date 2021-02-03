@@ -677,8 +677,14 @@
       display: none;
     }
   }
-  body.highContrast .floater-container * {
+  body.highContrast .floater-container *,
+  body.highContrast .wa-floater-container * {
     color: #F5FF00 !important;
     fill: #F5FF00 !important;
+  }
+  body.highContrast .floater-container input,
+  body.highContrast .wa-floater-container input {
+    background: #fff !important;
+    color: #000 !important;
   }
 </style>
