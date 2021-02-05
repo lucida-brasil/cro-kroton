@@ -2089,7 +2089,14 @@ ul.second-menu__ul-dropdown {
   padding: 0;
 }
 
+.second-menu__nav .second-menu__figure {
+  max-width: none;
+}
+
 @media (min-width: 993px) {
+  .second-menu__nav .second-menu__figure {
+    max-width: 100px;
+  }
   .second-menu__ul-li>a em {
     font-size: 12px !important;
   }
