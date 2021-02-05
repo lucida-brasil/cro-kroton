@@ -212,7 +212,7 @@ var testeEnfermagem = {
         })
       ) {
         var url = $.param(testeEnfermagem.link);
-        window.open("https://www.anhanguera.com/inscricao?" + url, "_blank");
+        window.location = "https://www.anhanguera.com/inscricao?" + url;
       }
     });
     $("#vantagens-de-ser").on("slide.bs.carousel", function (e) {
@@ -307,7 +307,6 @@ var headerTeste = {
       "href",
       "https://www.anhanguera.com/inscricao?origem=header"
     );
-    this.but.setAttribute("target", "_blank");
     this.but.setAttribute("title", "Clique aqui para inscrever-se agora!");
   },
   insertButton: function (mob = false) {
@@ -355,7 +354,6 @@ var headerTeste = {
       "href",
       "https://www.vestibulares.com.br/anhanguera/area-candidato/login"
     );
-    this.acompanhe.setAttribute("target", "_blank");
     this.acompanhe.setAttribute(
       "title",
       "Clique aqui para acompanhar sua inscrição!"

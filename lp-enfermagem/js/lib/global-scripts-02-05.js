@@ -82,8 +82,8 @@ var lp_enfermagem = {
 
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb bg-transparent p-0">
-                  <li class="breadcrumb-item"><a href="#">Início</a></li>
-                  <li class="breadcrumb-item"><a href="#">Cursos de Graduação</a></li>
+                  <li class="breadcrumb-item"><a href="https://www.anhanguera.com">Início</a></li>
+                  <li class="breadcrumb-item"><a href="https://www.anhanguera.com/cursos">Cursos de Graduação</a></li>
                   <li class="breadcrumb-item active" aria-current="page">Curso de Enfermagem</li>
                 </ol>
               </nav>
@@ -200,7 +200,7 @@ var lp_enfermagem = {
                           Presencial ou Online</strong></h5>
                       <p class="text-center small card-text">Faça sua inscrição no vestibular. <br>
                         Processos seletivos abertos!</p>
-                      <div class="text-center"><a class="btn btn-block btn-laranja text-uppercase text-white" href="#"
+                      <div class="text-center"><a class="btn btn-block btn-laranja text-uppercase text-white" href="https://www.anhanguera.com/inscricao?origem=header"
                           role="button">INSCREVA-SE AGORA!</a></div>
                     </div>
                   </div>
@@ -213,7 +213,7 @@ var lp_enfermagem = {
                       <h5 class="text-center mt-4 mb-4"><strong>ENEM</strong></h5>
                       <p class="text-center small card-text">Utilize sua nota do ENEM e inscreva-se sem precisar fazer o
                         vestibular.</p>
-                      <div class="text-center"><a class="btn btn-block btn-laranja text-uppercase text-white" href="#"
+                      <div class="text-center"><a class="btn btn-block btn-laranja text-uppercase text-white" href="https://www.anhanguera.com/institucional/enem/"
                           role="button">INSCREVA-SE AGORA!</a></div>
                     </div>
                   </div>
@@ -227,7 +227,7 @@ var lp_enfermagem = {
                       <p class="text-center small card-text">Foi pré-selecionado no PROUNI ou FIES? Envie seus documentos
                         para estudar conosco e acompanhe todo o processo seletivo.</p>
                       <div class="text-center"><a class="btn btn-block btn-outline-laranja text-uppercase text-laranja2"
-                          href="#" role="button">Saiba mais</a></div>
+                          href="https://prouniefies.kroton.com.br/#/login" role="button">Saiba mais</a></div>
                     </div>
                   </div>
                 </div>
@@ -243,7 +243,7 @@ var lp_enfermagem = {
                       <h5 class="text-center mt-4 mb-4"><strong>Transferência</strong></h5>
                       <p class="text-center small card-text">Transfira seu curso para uma de nossas unidades.</p>
                       <div class="text-center"><a class="btn btn-block btn-outline-laranja text-uppercase text-laranja2"
-                          href="#" role="button">Saiba mais</a></div>
+                          href="https://vestibulares.com.br/anhanguera/transferencia-externa/" role="button">Saiba mais</a></div>
                     </div>
                   </div>
                 </div>
@@ -255,7 +255,7 @@ var lp_enfermagem = {
                       <h5 class="text-center mt-4 mb-4"><strong>2ª Graduação</strong></h5>
                       <p class="text-center small card-text">Torne-se um professor ou obtenha uma segunda licenciatura.
                       </p>
-                      <div class="text-center"><a class="btn btn-block btn-laranja text-uppercase text-white" href="#"
+                      <div class="text-center"><a class="btn btn-block btn-laranja text-uppercase text-white" href="https://www.anhanguera.com/paginas/segunda-graduacao/"
                           role="button">INSCREVA-SE AGORA!</a></div>
                     </div>
                   </div>
