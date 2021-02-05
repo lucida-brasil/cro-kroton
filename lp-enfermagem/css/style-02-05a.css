@@ -305,6 +305,9 @@ body.body-curso div #main-container.lp-enfermagem .bg-laranja2 {
   .body-curso #main-content.lp-enfermagem section#itemSeteMobile {
     display: none;
   }
+  .second-menu__ul-li>a em {
+    font-size: 14px !important;
+  }
 }
 @media (max-width: 1164px) {
   .body-curso #main-content.lp-enfermagem section#itemSete {
@@ -1972,7 +1975,7 @@ li.second-menu__ul-li > a {
 }
 
 ul.second-menu__ul-dropdown {
-  top: 160px;
+  top: 120px;
 }
 
 .select2-container {
@@ -2087,8 +2090,11 @@ ul.second-menu__ul-dropdown {
 }
 
 @media (min-width: 993px) {
+  .second-menu__ul-li>a em {
+    font-size: 12px !important;
+  }
   #main-container.lp-enfermagem {
-    margin-top: 140px;
+    margin-top: 120px;
   }
   #itemSete {
     display: block;
@@ -2158,6 +2164,15 @@ ul.second-menu__ul-dropdown {
 }
 
 @media (min-width: 1205px) {
+  ul.second-menu__ul-dropdown {
+    top: 140px;
+  }
+  #main-container.lp-enfermagem {
+    margin-top: 140px;
+  }
+  .second-menu__ul-li>a em {
+    font-size: 13px !important;
+  }
   body .first-level-menu-container > .main-grid {
     border-bottom: 1px solid #bdbdbd;
     padding: 10px 0 7px;
