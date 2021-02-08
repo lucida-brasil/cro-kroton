@@ -1975,7 +1975,7 @@ li.second-menu__ul-li > a {
 }
 
 ul.second-menu__ul-dropdown {
-  top: 120px;
+  top: 115px;
 }
 
 .select2-container {
@@ -2101,7 +2101,7 @@ ul.second-menu__ul-dropdown {
     font-size: 12px !important;
   }
   #main-container.lp-enfermagem {
-    margin-top: 120px;
+    margin-top: 118px;
   }
   #itemSete {
     display: block;
@@ -2172,10 +2172,10 @@ ul.second-menu__ul-dropdown {
 
 @media (min-width: 1205px) {
   ul.second-menu__ul-dropdown {
-    top: 140px;
+    top: 135px;
   }
   #main-container.lp-enfermagem {
-    margin-top: 140px;
+    margin-top: 138px;
   }
   .second-menu__ul-li>a em {
     font-size: 13px !important;
