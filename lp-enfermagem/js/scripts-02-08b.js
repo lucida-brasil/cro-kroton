@@ -360,6 +360,7 @@ var headerTeste = {
       eventCategory: ec,
       eventAction: ea,
       eventLabel: el,
+      'dimension13': 'enfermagem',
     });
   },
 };
