@@ -1,0 +1,108 @@
+<style>
+  .amigo-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+    background-color: transparent;
+  }
+  .amigo-overlay.active {
+    display: block;
+  }
+  .amigo-overlay .amigo-content {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+  .amigo-overlay .amigo-content img, .amigo-overlay .amigo-content a {
+    display: block;
+  }
+  .amigo-overlay .amigo-content button {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    display: block;
+    width: 2em;
+    height: 2em;
+    font-family: sans-serif;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    background: rgba(255,255,255,0.2);
+    border: 0;
+    transition: background .2s;
+  }
+  .amigo-overlay .amigo-content button:hover {
+    background: rgba(255,255,255,0.6);
+  }
+</style>
+
+<script>
+const bannerHtml =
+  `<div class="amigo-overlay">
+    <div class="amigo-content">
+      <a href="https://www.amigovalepremio.com.br/anhanguera?utm_source=portal_anhanguera&utm_medium=webpush_portal_aluno_anhanguera&utm_campaign=webpush_fev_21" title="Ir para promoção do Amigo Vale Prêmio">
+        <img src="https://storage.googleapis.com/cro_seo-hospedagem_de_assets/Imagens%20Kroton%20-%20Ex%20Maxymiser/amigo_vale_premio/v3_Push_AVP_Pitagoras.jpg" alt="Banner do Amigo Vale Prêmio">
+      </a>
+      <button title="Fechar banner">X</button>
+    </div>
+  </div>`;
+const bannerAmigo = {
+  overlay: null,
+  close: null,
+  link: null,
+  init: function() {
+    this.create();
+    this.elements();
+    this.showAll();
+    this.bind();
+  },
+  create: function() {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(bannerHtml, "text/html");
+    for (var elem of doc.body.childNodes) {
+      document.querySelector("body").appendChild(elem);
+    }
+    window.dataLayer = window.dataLayer || [];
+  },
+  elements: function() {
+    this.link = document.querySelector('.amigo-overlay a');
+    this.overlay = document.querySelector('.amigo-overlay');
+    this.close = document.querySelector('.amigo-overlay button');
+  },
+  bind: function() {
+    let _this = this;
+    this.link.addEventListener('click', function(evt) {
+      evt.stopPropagation();
+      window.dataLayer.push({
+        'event': 'event',
+        'eventCategory': 'anhanguera:inscricao',
+        'eventAction': 'clique:banner',
+        'eventLabel': 'amigo-vale-premio',
+      });
+    });
+    this.close.addEventListener('click', function() {
+      _this.hideAll();
+    });
+    this.overlay.addEventListener('click', function() {
+      _this.hideAll();
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.keyCode === 27) {
+        _this.hideAll();
+      }
+    });
+  },
+  showAll: function() {
+    bannerAmigo.overlay.classList.add('active')
+  },
+  hideAll: function() {
+    bannerAmigo.overlay.classList.remove('active')
+  }
+};
+bannerAmigo.init();
+</script>
