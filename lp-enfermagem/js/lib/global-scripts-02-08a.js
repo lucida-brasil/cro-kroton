@@ -28,7 +28,7 @@ var lp_enfermagem = {
     // scripts
     script = document.createElement("script");
     script.src =
-      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/scripts-02-08.js";
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/scripts-02-08a.js";
     script.async = true;
     script.defer = "defer";
     document.body.appendChild(script);
@@ -50,7 +50,7 @@ var lp_enfermagem = {
 
     styles = document.createElement("link");
     styles.href =
-      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/css/style-02-08.css";
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/css/style-02-08a.css";
     // styles.href = "/css/style-01-21.css";
     styles.rel = "stylesheet";
     document.head.appendChild(styles);
@@ -95,7 +95,6 @@ var lp_enfermagem = {
                 </div>
 
                 <div class="row justify-content-between m-0 px-0">
-
                   <div class="col col-lg-4 mb-0 borders border-warning pl-0 pr-4 mx-0">
                     <div class="container-fluid borders border-danger px-0 ">
                       <form>
@@ -150,11 +149,16 @@ var lp_enfermagem = {
                         <p class="text-left mb-0 pb-0 small">A partir de:</p>
                         <p class="text-center text-warning" style="font-size: 66px;"><strong>449,<sup>00</sup></strong>
                         </p>
-                        <div class="text-center"><button type="submit"
-                            class="btn btn-block btn-laranja text-uppercase text-white btn-inscreva-se">INSCREVA-SE
-                            AGORA!</button>
+                        <div class="text-center">
+                          <button
+                            type="submit"
+                            class="btn btn-block btn-laranja text-uppercase text-white btn-inscreva-se"
+                            data-gtm-event-category="anhanguera:cursos"
+                            data-gtm-event-action="clique:botao"
+                            data-gtm-event-label="onde-estudar:inscreva-se">
+                            INSCREVA-SE AGORA!
+                          </button>
                         </div>
-
                       </div>
                     </div>
                   </div>
@@ -200,7 +204,13 @@ var lp_enfermagem = {
                           Presencial ou Online</strong></h5>
                       <p class="text-center small card-text">Faça sua inscrição no vestibular. <br>
                         Processos seletivos abertos!</p>
-                      <div class="text-center"><a class="btn btn-block btn-laranja text-uppercase text-white" href="https://www.anhanguera.com/inscricao?origem=header"
+                      <div class="text-center">
+                        <a
+                          class="btn btn-block btn-laranja text-uppercase text-white"
+                          href="https://www.anhanguera.com/inscricao?origem=header"
+                          data-gtm-event-category="anhanguera:cursos"
+                          data-gtm-event-action="clique:card"
+                          data-gtm-event-label="forma-ingresso:inscreva-se-agora"
                           role="button">INSCREVA-SE AGORA!</a></div>
                     </div>
                   </div>
@@ -213,7 +223,13 @@ var lp_enfermagem = {
                       <h5 class="text-center mt-4 mb-4"><strong>ENEM</strong></h5>
                       <p class="text-center small card-text">Utilize sua nota do ENEM e inscreva-se sem precisar fazer o
                         vestibular.</p>
-                      <div class="text-center"><a class="btn btn-block btn-laranja text-uppercase text-white" href="https://www.anhanguera.com/institucional/enem/"
+                      <div class="text-center">
+                        <a
+                          class="btn btn-block btn-laranja text-uppercase text-white"
+                          href="https://www.anhanguera.com/institucional/enem/"
+                          data-gtm-event-category="anhanguera:cursos"
+                          data-gtm-event-action="clique:card"
+                          data-gtm-event-label="forma-ingresso:enem"
                           role="button">INSCREVA-SE AGORA!</a></div>
                     </div>
                   </div>
@@ -226,8 +242,14 @@ var lp_enfermagem = {
                       <h5 class="text-center mt-4 mb-4"><strong>PROUNI e FIES</strong></h5>
                       <p class="text-center small card-text">Foi pré-selecionado no PROUNI ou FIES? Envie seus documentos
                         para estudar conosco e acompanhe todo o processo seletivo.</p>
-                      <div class="text-center"><a class="btn btn-block btn-outline-laranja text-uppercase text-laranja2"
-                          href="https://prouniefies.kroton.com.br/#/login" role="button">Saiba mais</a></div>
+                      <div class="text-center">
+                        <a
+                          class="btn btn-block btn-outline-laranja text-uppercase text-laranja2"
+                          href="https://prouniefies.kroton.com.br/#/login"
+                          data-gtm-event-category="anhanguera:cursos"
+                          data-gtm-event-action="clique:card"
+                          data-gtm-event-label="forma-ingresso:prouni-fies"
+                          role="button">Saiba mais</a></div>
                     </div>
                   </div>
                 </div>
@@ -242,8 +264,13 @@ var lp_enfermagem = {
                       </p>
                       <h5 class="text-center mt-4 mb-4"><strong>Transferência</strong></h5>
                       <p class="text-center small card-text">Transfira seu curso para uma de nossas unidades.</p>
-                      <div class="text-center"><a class="btn btn-block btn-outline-laranja text-uppercase text-laranja2"
-                          href="https://vestibulares.com.br/anhanguera/transferencia-externa/" role="button">Saiba mais</a></div>
+                      <div class="text-center">
+                        <a class="btn btn-block btn-outline-laranja text-uppercase text-laranja2"
+                          href="https://vestibulares.com.br/anhanguera/transferencia-externa/"
+                          data-gtm-event-category="anhanguera:cursos"
+                          data-gtm-event-action="clique:card"
+                          data-gtm-event-label="forma-ingresso:transferencia"
+                          role="button">Saiba mais</a></div>
                     </div>
                   </div>
                 </div>
@@ -255,8 +282,14 @@ var lp_enfermagem = {
                       <h5 class="text-center mt-4 mb-4"><strong>2ª Graduação</strong></h5>
                       <p class="text-center small card-text">Torne-se um professor ou obtenha uma segunda licenciatura.
                       </p>
-                      <div class="text-center"><a class="btn btn-block btn-laranja text-uppercase text-white" href="https://www.anhanguera.com/paginas/segunda-graduacao/"
-                          role="button">INSCREVA-SE AGORA!</a></div>
+                      <div class="text-center">
+                      <a
+                        class="btn btn-block btn-laranja text-uppercase text-white"
+                        href="https://www.anhanguera.com/paginas/segunda-graduacao/"
+                        data-gtm-event-category="anhanguera:cursos"
+                        data-gtm-event-action="clique:card"
+                        data-gtm-event-label="forma-ingresso:segunda-graduacao"
+                        role="button">INSCREVA-SE AGORA!</a></div>
                     </div>
                   </div>
                 </div>
@@ -884,7 +917,12 @@ var lp_enfermagem = {
                     diferença! :) !
                   </p>
 
-                  <button id="button-1" class="read-more">LER MAIS</button>
+                  <button
+                    id="button-1"
+                    class="read-more"
+                    data-gtm-event-category="anhanguera:cursos"
+                    data-gtm-event-action="clique:card"
+                    data-gtm-event-label="quem-estudou-aqui-sabe:kelly-christina-ler-mais">LER MAIS</button>
                   <p class="testimony-author">Kelly Christina Silva Carminato</p>
                   <p class="testimony-course">Enfermagem - Bacharelado</p>
                 </div>
@@ -931,7 +969,12 @@ var lp_enfermagem = {
                     aumenta minha vontade de vencer nessa cidade e voltar formada para minha terra natal.
                   </p>
 
-                  <button id="button-2" class="read-more">LER MAIS</button>
+                  <button
+                    id="button-2"
+                    class="read-more"
+                    data-gtm-event-category="anhanguera:cursos"
+                    data-gtm-event-action="clique:card"
+                    data-gtm-event-label="quem-estudou-aqui-sabe:rosiane-coelho-ler-mais">LER MAIS</button>
                   <p class="testimony-author">Rosiane Coelho de Sousa</p>
                   <p class="testimony-course">Enfermagem - Bacharelado</p>
                 </div>
@@ -972,7 +1015,12 @@ var lp_enfermagem = {
                     punção,aprendi libras que era outro sonho. Viu, só a agradecer!
                   </p>
 
-                  <button id="button-3" class="read-more">LER MAIS</button>
+                  <button
+                    id="button-3"
+                    class="read-more"
+                    data-gtm-event-category="anhanguera:cursos"
+                    data-gtm-event-action="clique:card"
+                    data-gtm-event-label="quem-estudou-aqui-sabe:cristiane-sampaio-ler-mais">LER MAIS</button>
                   <p class="testimony-author">Cristiana Sampaio dos Santos</p>
                   <p class="testimony-course">Enfermagem - Bacharelado</p>
                 </div>
@@ -1001,6 +1049,9 @@ var lp_enfermagem = {
               <div style="align-items: center; display: flex; justify-content: center; padding: 56px 0;">
                 <p>
                   <a class="btn btn-outline-light px-4 text-uppercase text-white"
+                    data-gtm-event-category="anhanguera:cursos"
+                    data-gtm-event-action="clique:botao"
+                    data-gtm-event-label="quem-estudou-aqui-sabe:inscreva-se-agora"
                     style="font-size: 14px; font-weight: 700; line-height: 14px; padding: 18px;"
                     href="https://www.anhanguera.com/inscricao?origem=quem-estudou-sabe" role="button">
                     INSCREVA-SE AGORA!

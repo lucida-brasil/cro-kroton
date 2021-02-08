@@ -198,12 +198,15 @@ var testeEnfermagem = {
       testeEnfermagem.populateUnits(e.params.data.id.split("-")[1]);
       testeEnfermagem.link.estado = e.params.data.id.split("-")[0];
       testeEnfermagem.link.cidade = e.params.data.id.split("-")[1];
+      headerTeste.sendEvent("anhanguera:cursos", "interacao:campo", "cidade");
     });
     $(".select-unit").on("select2:select", function (e) {
       testeEnfermagem.link.unidade = e.params.data.id;
+      headerTeste.sendEvent("anhanguera:cursos", "interacao:campo", "unidade");
     });
     $(".select-modals").on("select2:select", function (e) {
       testeEnfermagem.link.modalidade = e.params.data.id;
+      headerTeste.sendEvent("anhanguera:cursos", "interacao:campo", "modalidade");
     });
     $(".btn-inscreva-se").on("click", function () {
       if (
@@ -323,21 +326,12 @@ var headerTeste = {
   },
   bind: function () {
     var _this = this;
-    document
-      .querySelector(".btn-header-inscreva-se")
-      .addEventListener("click", function () {
-        _this.sendEvent("anhanguera:teste", "header", "clique:inscreva-se");
+    var buttons = document.querySelectorAll(".btn-inscreva-se");
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].addEventListener("click", function () {
+        _this.sendEvent("anhanguera:cursos", "clique:botao", "inscreva-se");
       });
-
-    // document
-    //   .querySelector(".lnk-header-acompanhe")
-    //   .addEventListener("click", function () {
-    //     _this.sendEvent(
-    //       "anhanguera:teste",
-    //       "header",
-    //       "clique:acompanhe-inscricao"
-    //     );
-    //   });
+    }
   },
   mobile: function () {
     var acc = document.querySelector(
@@ -362,7 +356,7 @@ var headerTeste = {
   sendEvent: function (ec, ea, el) {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-      event: "ga_event",
+      event: "event",
       eventCategory: ec,
       eventAction: ea,
       eventLabel: el,
