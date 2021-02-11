@@ -94,7 +94,7 @@ var floaterTeste = {
       _this.sendEvent('unic:teste', 'floater:ligar', 'clique:ligar');
       _this.hM();
       _this.cS('close');
-      window.location.href = 'tel:08008815241';
+      window.location.href = 'tel:08008815242';
     });
 
     var chatbot = document.querySelector('.floater-container button.floater-chat');
@@ -160,7 +160,7 @@ var floaterTeste = {
         body: JSON.stringify(data)
       })
       setTimeout(function() {
-        window.location.href = 'https://api.whatsapp.com/send?1=pt_BR&phone=5511991148762&text=Ol%C3%A1%20%F0%9F%99%82';
+        window.location.href = 'https://api.whatsapp.com/send?1=pt_BR&phone=5511991215507&text=Ol%C3%A1%20%F0%9F%99%82';
       }, 300)
     })
 

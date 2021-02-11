@@ -32,7 +32,7 @@ var floaterTeste = {
     w.setAttribute('brand', 'UNIME');
     w.setAttribute('type', 'Graduação');
     w.setAttribute('color', '#F5821F');
-    w.setAttribute('domaingraduation', 'https://www.unime.com.br/inscricao');
+    w.setAttribute('domaingraduation', 'https://www.unime.edu.br/inscricao');
     document.body.appendChild(w);
   },
   bind: function() {
@@ -75,7 +75,7 @@ var floaterTeste = {
       _this.hM();
       _this.cS('close');
 
-      window.location.href = 'https://www.unime.com.br/inscricao?origem=floater';
+      window.location.href = 'https://www.unime.edu.br/inscricao?origem=floater';
     });
 
     var ctc = document.querySelector('.floater-container button.floater-call-me');
@@ -94,7 +94,7 @@ var floaterTeste = {
       _this.sendEvent('unime:teste', 'floater:ligar', 'clique:ligar');
       _this.hM();
       _this.cS('close');
-      window.location.href = 'tel:08008815241';
+      window.location.href = 'tel:08008811431';
     });
 
     var chatbot = document.querySelector('.floater-container button.floater-chat');
@@ -160,7 +160,7 @@ var floaterTeste = {
         body: JSON.stringify(data)
       })
       setTimeout(function() {
-        window.location.href = 'https://api.whatsapp.com/send?1=pt_BR&phone=5511991148762&text=Ol%C3%A1%20%F0%9F%99%82';
+        window.location.href = 'https://api.whatsapp.com/send?1=pt_BR&phone=5511992798035&text=Ol%C3%A1%20%F0%9F%99%82';
       }, 300)
     })
 
@@ -254,7 +254,7 @@ var headerTeste = {
     this.but = document.createElement('a');
     this.but.classList.add('btn-header-inscreva-se');
     this.but.innerHTML = 'Inscreva-se';
-    this.but.setAttribute('href', 'https://www.unime.com.br/inscricao?origem=header');
+    this.but.setAttribute('href', 'https://www.unime.edu.br/inscricao?origem=header');
     this.but.setAttribute('title', 'Clique aqui para inscrever-se agora!');
   },
   insertButton: function(mob = false) {
