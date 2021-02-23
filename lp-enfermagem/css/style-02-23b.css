@@ -1870,11 +1870,6 @@ body header.anhanguera_ {
   right: 0;
 }
 
-body .anhanguera_ .first-level-menu-container,
-body .anhanguera_ .second-menu {
-  background: transparent !important;
-}
-
 ul.acessibility-list {
   padding: 0;
   margin: 0;
@@ -1918,28 +1913,6 @@ ul.acessibility-list {
   width: auto;
 }
 
-nav.second-menu__nav {
-  display: flex;
-  flex-direction: row-reverse;
-  height: auto;
-}
-
-.btn-header-inscreva-se {
-  background: #f47921;
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-family: "Open Sans";
-  font-weight: 800;
-  font-size: 11px;
-  padding: 6px 10px;
-  margin: 5px 0;
-  width: 100%;
-  text-align: center;
-  max-width: 200px;
-}
-
 .lnk-header-acompanhe {
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
@@ -1948,13 +1921,6 @@ nav.second-menu__nav {
   color: #f15921;
   white-space: nowrap;
   margin-right: 20px;
-}
-
-ul.second-menu__ul {
-  top: 100%;
-  margin: 0;
-  background: #f2f2f2;
-  padding-top: 0;
 }
 
 .second-level {
@@ -2085,21 +2051,7 @@ ul.second-menu__ul-dropdown {
   margin: 0;
 }
 
-.first-level-menu-container {
-  padding: 0;
-}
-
-.second-menu__nav .second-menu__figure {
-  max-width: none;
-}
-
 @media (min-width: 993px) {
-  .second-menu__nav .second-menu__figure {
-    max-width: 100px;
-  }
-  .second-menu__ul-li>a em {
-    font-size: 12px !important;
-  }
   #main-container.lp-enfermagem {
     margin-top: 118px;
   }
@@ -2108,65 +2060,6 @@ ul.second-menu__ul-dropdown {
   }
   #itemSeteMobile {
     display: none;
-  }
-  li.second-menu__ul-li > a {
-    padding: 30px 10px;
-  }
-
-  nav.second-menu__nav {
-    max-width: 90%;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0;
-  }
-
-  ul.restrictArea-list li {
-    display: block !important;
-    margin: 0 0 0 30px;
-  }
-
-  ul.acessibility-list .acessibility-item-text {
-    display: none;
-  }
-
-  ul.restrictArea-list li a {
-    color: #000;
-    text-transform: lowercase;
-    transition: color 0.3s ease;
-  }
-
-  ul.restrictArea-list li a:hover,
-  ul.restrictArea-list li.restrictArea-item:last-of-type a {
-    color: #f15921;
-  }
-
-  ul.restrictArea-list li.restrictArea-item:last-of-type a p {
-    font-weight: 700;
-  }
-
-  ul.restrictArea-list li a p {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-  }
-
-  ul.restrictArea-list li a p:first-letter {
-    text-transform: uppercase;
-  }
-
-  ul.restrictArea-list li a i {
-    display: none;
-  }
-
-  div.login {
-    display: none;
-  }
-
-  .btn-header-inscreva-se {
-    padding: 10px 30px;
-    font-size: 14px;
   }
 }
 
