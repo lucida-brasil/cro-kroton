@@ -371,5 +371,5 @@ var headerTeste = {
 
 (function () {
   testeEnfermagem.init();
-  headerTeste.init();
+  // headerTeste.init();
 })();
