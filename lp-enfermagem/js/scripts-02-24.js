@@ -284,6 +284,33 @@ var testeEnfermagem = {
         $(this).off("touchmove");
       });
     });
+
+    $('.box-onde-estudar .btn-inscreva-se').on('click', function() {
+      headerTeste.sendEvent("anhanguera:cursos", "clique:botao", "onde-estudar:inscreva-se")
+    });
+    $('#itemTres .inscrevaseagora .btn').on('click', function() {
+      headerTeste.sendEvent("anhanguera:cursos", "clique:card", "forma-ingresso:inscreva-se-agora")
+    });
+    $('#itemTres .inscrevaseenem .btn').on('click', function() {
+      headerTeste.sendEvent("anhanguera:cursos", "clique:card", "forma-ingresso:enem")
+    });
+    $('#itemTres .inscrevaseprouni .btn').on('click', function() {
+      headerTeste.sendEvent("anhanguera:cursos", "clique:card", "forma-ingresso:prouni-fies")
+    });
+    $('#itemTres .inscrevasetransferencia .btn').on('click', function() {
+      headerTeste.sendEvent("anhanguera:cursos", "clique:card", "forma-ingresso:transferencia")
+    });
+    $('#itemTres .inscrevasesegunda .btn').on('click', function() {
+      headerTeste.sendEvent("anhanguera:cursos", "clique:card", "forma-ingresso:segunda-graduacao")
+    });
+    $('#itemOito .read-more').on('click', function() {
+      let nome = $(this).next('p.testimony-author').text().toLowerCase().trim().split(' ');
+      nome = nome.length > 2 ? nome[0] + '-' + nome[1] : nome[0];
+      headerTeste.sendEvent("anhanguera:cursos", "clique:card", "quem-estudou-aqui-sabe:" + nome + "-ler-mais");
+    });
+    $('#itemOito .inscrevaseagora').on('click', function() {
+      headerTeste.sendEvent("anhanguera:cursos", "clique:botao", "quem-estudou-aqui-sabe:inscreva-se-agora")
+    });
   },
 };
 

@@ -28,7 +28,7 @@ var lp_enfermagem = {
     // scripts
     script = document.createElement("script");
     script.src =
-      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/scripts-02-23b.js";
+      "https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/js/scripts-02-24.js";
     script.async = true;
     script.defer = "defer";
     document.body.appendChild(script);
@@ -152,10 +152,7 @@ var lp_enfermagem = {
                         <div class="text-center">
                           <button
                             type="submit"
-                            class="btn btn-block btn-laranja text-uppercase text-white btn-inscreva-se"
-                            data-gtm-event-category="anhanguera:cursos"
-                            data-gtm-event-action="clique:botao"
-                            data-gtm-event-label="onde-estudar:inscreva-se">
+                            class="btn btn-block btn-laranja text-uppercase text-white btn-inscreva-se">
                             INSCREVA-SE AGORA!
                           </button>
                         </div>
@@ -197,7 +194,7 @@ var lp_enfermagem = {
               </div>
               <div class="row justify-content-center mb-1">
                 <div class="col-sm-12 col-lg-4">
-                  <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5">
+                  <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5 inscrevaseagora">
                     <div class="container-fluid">
                       <p class="text-center pt-2 card-icons"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-caneta.png" alt="" class="mt-3"></p>
                       <h5 class="text-center mt-3 mb-2"><strong>Vestibular <br>
@@ -208,16 +205,13 @@ var lp_enfermagem = {
                         <a
                           class="btn btn-block btn-laranja text-uppercase text-white"
                           href="https://www.anhanguera.com/inscricao?origem=header"
-                          data-gtm-event-category="anhanguera:cursos"
-                          data-gtm-event-action="clique:card"
-                          data-gtm-event-label="forma-ingresso:inscreva-se-agora"
                           role="button">INSCREVA-SE AGORA!</a></div>
                     </div>
                   </div>
                 </div>
 
                 <div class="col-sm-12 col-lg-4">
-                  <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5">
+                  <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5 inscrevaseenem">
                     <div class="container-fluid">
                       <p class="text-center pt-2 card-icons"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-enem.png" alt=""></p>
                       <h5 class="text-center mt-4 mb-4"><strong>ENEM</strong></h5>
@@ -227,16 +221,13 @@ var lp_enfermagem = {
                         <a
                           class="btn btn-block btn-laranja text-uppercase text-white"
                           href="https://www.anhanguera.com/institucional/enem/"
-                          data-gtm-event-category="anhanguera:cursos"
-                          data-gtm-event-action="clique:card"
-                          data-gtm-event-label="forma-ingresso:enem"
                           role="button">INSCREVA-SE AGORA!</a></div>
                     </div>
                   </div>
                 </div>
 
                 <div class="col-sm-12 col-lg-4">
-                  <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5">
+                  <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5 inscrevaseprouni">
                     <div class="container-fluid">
                       <p class="text-center pt-2 card-icons"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-lista.png" alt="" class="mt-3" /></p>
                       <h5 class="text-center mt-4 mb-4"><strong>PROUNI e FIES</strong></h5>
@@ -246,9 +237,6 @@ var lp_enfermagem = {
                         <a
                           class="btn btn-block btn-outline-laranja text-uppercase text-laranja2"
                           href="https://prouniefies.kroton.com.br/#/login"
-                          data-gtm-event-category="anhanguera:cursos"
-                          data-gtm-event-action="clique:card"
-                          data-gtm-event-label="forma-ingresso:prouni-fies"
                           role="button">Saiba mais</a></div>
                     </div>
                   </div>
@@ -258,7 +246,7 @@ var lp_enfermagem = {
 
               <div class="row justify-content-center mb-5">
                 <div class="col col-lg-4">
-                  <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5">
+                  <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5 inscrevasetransferencia">
                     <div class="container-fluid">
                       <p class="text-center pt-2 card-icons"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-vai-e-vem.png" alt="" class="mt-3" />
                       </p>
@@ -267,16 +255,13 @@ var lp_enfermagem = {
                       <div class="text-center">
                         <a class="btn btn-block btn-outline-laranja text-uppercase text-laranja2"
                           href="https://vestibulares.com.br/anhanguera/transferencia-externa/"
-                          data-gtm-event-category="anhanguera:cursos"
-                          data-gtm-event-action="clique:card"
-                          data-gtm-event-label="forma-ingresso:transferencia"
                           role="button">Saiba mais</a></div>
                     </div>
                   </div>
                 </div>
 
                 <div class="col col-lg-4">
-                  <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5">
+                  <div class="jumbotron jumbotron-fluid shadow bg-white border rounded pt-4 pb-5 inscrevasesegunda">
                     <div class="container-fluid">
                       <p class="text-center pt-2 card-icons"><img src="https://cdn.statically.io/gh/lucida-brasil/cro-kroton/main/lp-enfermagem/images/icone-beca.png" alt="" class="mt-3" /></p>
                       <h5 class="text-center mt-4 mb-4"><strong>2ª Graduação</strong></h5>
@@ -286,9 +271,6 @@ var lp_enfermagem = {
                       <a
                         class="btn btn-block btn-laranja text-uppercase text-white"
                         href="https://www.anhanguera.com/paginas/segunda-graduacao/"
-                        data-gtm-event-category="anhanguera:cursos"
-                        data-gtm-event-action="clique:card"
-                        data-gtm-event-label="forma-ingresso:segunda-graduacao"
                         role="button">INSCREVA-SE AGORA!</a></div>
                     </div>
                   </div>
@@ -919,10 +901,7 @@ var lp_enfermagem = {
 
                   <button
                     id="button-1"
-                    class="read-more"
-                    data-gtm-event-category="anhanguera:cursos"
-                    data-gtm-event-action="clique:card"
-                    data-gtm-event-label="quem-estudou-aqui-sabe:kelly-christina-ler-mais">LER MAIS</button>
+                    class="read-more">LER MAIS</button>
                   <p class="testimony-author">Kelly Christina Silva Carminato</p>
                   <p class="testimony-course">Enfermagem - Bacharelado</p>
                 </div>
@@ -971,10 +950,7 @@ var lp_enfermagem = {
 
                   <button
                     id="button-2"
-                    class="read-more"
-                    data-gtm-event-category="anhanguera:cursos"
-                    data-gtm-event-action="clique:card"
-                    data-gtm-event-label="quem-estudou-aqui-sabe:rosiane-coelho-ler-mais">LER MAIS</button>
+                    class="read-more">LER MAIS</button>
                   <p class="testimony-author">Rosiane Coelho de Sousa</p>
                   <p class="testimony-course">Enfermagem - Bacharelado</p>
                 </div>
@@ -1017,10 +993,7 @@ var lp_enfermagem = {
 
                   <button
                     id="button-3"
-                    class="read-more"
-                    data-gtm-event-category="anhanguera:cursos"
-                    data-gtm-event-action="clique:card"
-                    data-gtm-event-label="quem-estudou-aqui-sabe:cristiane-sampaio-ler-mais">LER MAIS</button>
+                    class="read-more">LER MAIS</button>
                   <p class="testimony-author">Cristiana Sampaio dos Santos</p>
                   <p class="testimony-course">Enfermagem - Bacharelado</p>
                 </div>
@@ -1048,10 +1021,7 @@ var lp_enfermagem = {
 
               <div style="align-items: center; display: flex; justify-content: center; padding: 56px 0;">
                 <p>
-                  <a class="btn btn-outline-light px-4 text-uppercase text-white"
-                    data-gtm-event-category="anhanguera:cursos"
-                    data-gtm-event-action="clique:botao"
-                    data-gtm-event-label="quem-estudou-aqui-sabe:inscreva-se-agora"
+                  <a class="btn btn-outline-light px-4 text-uppercase text-white inscrevaseagora"
                     style="font-size: 14px; font-weight: 700; line-height: 14px; padding: 18px;"
                     href="https://www.anhanguera.com/inscricao?origem=quem-estudou-sabe" role="button">
                     INSCREVA-SE AGORA!
