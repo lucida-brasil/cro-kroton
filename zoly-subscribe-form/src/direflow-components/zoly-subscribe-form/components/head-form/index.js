@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import TooltipEnem from "../tootip-enem";
 import styles from "./head-form-component.style.css";
 import { Styled } from "direflow-component";
@@ -20,11 +20,13 @@ const HeadFormComponent = () => {
   const [btnEnemClick, setEnemClick] = useState(false);
   const [openDialog, setOpenDialog] = useState(false);
   const handleClose = () => setOpenDialog(false);
+  useEffect(() => {
+    window.setTimeout(() => setOpenDialog(true), 3000);
+  }, []);
 
   const handleEnemClick = () => {
     if (btnEnemClick === false) simulateMouseClick();
     setEnemClick(true);
-    setOpenDialog(true);
   };
 
   const handleVestibularClick = () => {
@@ -63,7 +65,7 @@ const HeadFormComponent = () => {
           </button>
         </div>
         <div className="modal__position">
-          <TooltipEnem open={openDialog} onClose={handleClose} />
+          <TooltipEnem open={openDialog} onClose={handleClose}/>
         </div>
       </div>
     </Styled>

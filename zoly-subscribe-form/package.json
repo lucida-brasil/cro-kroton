@@ -23,7 +23,7 @@
     "build"
   ],
   "scripts": {
-    "start": "direflow-scripts start",
+    "start": "set PORT=80 && direflow-scripts start",
     "build": "direflow-scripts build",
     "build:lib": "direflow-scripts build:lib",
     "test": "direflow-scripts test"
